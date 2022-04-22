@@ -1,0 +1,890 @@
+
+  
+  /*--*/
+  :root {
+    --primaryBg:  #000000;
+    --primaryBg3: #333333;
+    --primaryTxt: #fff;
+    --primaryTxt2: #b3b3b3;
+    --primaryTxt3: #999999;
+
+    --accentBg: #f6c600;
+    --accentG: #f6c600;
+    --accentRGBA: rgba(246, 198, 0, 0.6);
+    --accentTxt: #000;
+
+    --brandG: #ffd116;
+    --brandBg: #ffd116;
+    --brandTxt: #000;
+
+    --actionButtonG: #f6c600;
+    --actionButtonTxt: #000;
+
+    --widgetG: #202020;
+    --widgetBg: #202020;
+    --widgetBgHover: #131313;
+    --widgetBg2: #060606;
+    --widgetBg2Hover: #131313;
+    --widgetBg3: #1f1f1f;
+    --widgetBg3Hover: #121212;
+    --widgetRGBA: rgba(32, 32, 32, 0.6);
+    --widgetTxt: #fff;
+    --widgetTxt2: #b3b3b3;
+    --widgetTxt3: #999999;
+
+    --oddG: #000000;
+    --oddBg: #000000;
+    --oddTxt: #fff;
+    --oddTxt2: #b3b3b3;
+
+    --oddActiveG: linear-gradient(#BB9700,#F6C600,#BB9700);
+    --oddActiveBg: #BB9700;
+    --oddActiveBg2: #886e00;
+    --oddActiveTxt: #fff;
+    --oddActiveTxt2: #b3b3b3;
+
+    --showMoreG: #202020;
+    --showMoreBg: #202020;
+    --showMoreTxt: #fff;
+    --showMoreTxt2: #b3b3b3;
+
+    --headerG: #393838;
+    --headerBg: #393838;
+    --headerTxt: #fff;
+
+    --popupHeaderG: #393838;
+    --popupHeaderBg: #393838;
+    --popupHeaderTxt: #fff;
+
+    --popupBg: #202020;
+    --popupG: #202020;
+    --popupTxt: #fff;
+    --popupTxt2: #b3b3b3;
+
+    --tabG: #111111;
+    --tabBg: #111111;
+    --tabTxt: #fff;
+    --tabTxt2: #b3b3b3;
+
+    --activeTabG: #202020;
+    --activeTabBg: #202020;
+    --activeTabTxt: #fff;
+
+    --sideBarTabG: #111111;
+    --sideBarTabTxt: #fff;
+
+    --sideBarActiveTabG: #202020;
+    --sideBarActiveTabTxt: #fff;
+
+    --inputG: #202020;
+    --inputBg: #202020;
+    --inputBg2: #060606;
+    --inputTxt:  #fff;
+    --inputTxt2: #b3b3b3;
+
+    --borderRadius: 2px;
+    --inputBirderRadius:  2px;
+    --bottomBirderRadius:  2px;
+
+}
+/*---*/
+
+
+/*BetForce skinning*/
+
+/*coupon*/
+.tg_widget_bg_2 {
+    background-color: #202020;
+    color: #666666;
+}
+.tg--cashout-body, .tg__cashout_popup, .booking_number {
+    background-color: #202020;
+    color: #cccccc;
+}
+
+.stake_item_panel {
+    background: #111111;
+    color: #cccccc;
+    border-color: #202020;
+}
+
+.coupon_sport_name_container {
+    color: #fff;
+}
+/*input inside widgetBg3*/
+.tg_widget_bg_2 .tg__dropdown_coupon {
+    background-color: #111111;
+    color: #cccccc;
+}
+
+.tg__coupon {
+    color: #999;
+}
+
+.tg__btn-coupon {
+    background-color: #393838;
+    color: #999;
+    transition: all 180ms ease-in-out;
+}
+
+    .tg__btn-coupon:hover {
+        color: #fff;
+        box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3);
+    }
+
+.tab_cupon {
+    background-color: #202020;
+    color: #cccccc;
+}
+
+    .tab_cupon.tab_selected,
+    .tab_cupon:hover {
+        background-color: #111111;
+        color: #fff;
+    }
+
+.tg__coupon_factor,
+.tg__coupon_square {
+    background-color: #111111;
+    color: #fff;
+}
+
+/*input inside widgetBg*/
+.tg_widget_bg .tg_input {
+    background-color: #2f2f2f;
+    color: #666666;
+}
+/*mainBg*/
+.tg_bg,
+.tg__modal_close,
+.tg--close,
+.tg__info_panel .selector_panel {
+    background-color: #000000;
+    color: #fff;
+}
+
+.gameContentTitle.tg_widget_header {
+    background: #393838;
+    color: #fff;
+}
+
+    .gameContentTitle.tg_widget_header .tg-ico-arrow {
+        color: #fff;
+    }
+
+.tg_widget_heading {
+    background: #010101;
+    color: #fff;
+}
+
+/*sidebar*/
+.tg_sidebar_bg {
+    background-color: #202020;
+}
+
+.tg__left_menu_item {
+    background: #202020;
+    color: #999999;
+}
+
+    .tg__left_menu_item:hover {
+        background: #252525;
+    }
+
+.tg_sidebar_bg_2 {
+    background-color: #2f2f2f;
+    color: #999999;
+}
+
+    .tg_sidebar_bg_2:hover {
+        background-color: #323232;
+    }
+
+.tg_sidebar_bg_3 {
+    background-color: #373737;
+    color: #999999;
+}
+
+    .tg_sidebar_bg_3:hover {
+        background-color: #252525;
+    }
+
+.tg__left_menu_item.tg__left_menu_item-active {
+    background: #f6c600;
+    color: #000;
+}
+
+.liveGameSelected .liveSportNamesContainer,
+.left_menu_line_active .tg__left_menu_item_text {
+    color: #f6c600;
+}
+
+.tg__left_menu_item.tg__left_menu_item-active .tg_sidebar_text_akcent,
+.liveGameSelected .tg_sidebar_bg_3 .tg_sidebar_text_akcent,
+.left_menu_line_active .tg_sidebar_text_akcent {
+    color: #f6c600;
+}
+
+.tg_sidebar_text_akcent,
+.tg-bg_transparent .teamName,
+.tg-bg_transparent .tg_team_name,
+.tg__open_event_img .tg-clr-akcent2.tg_score {
+    color: #f6c600;
+}
+
+.tg__left_menu_item--lvl1 {
+    background: #202020;
+    color: #fff;
+}
+
+.tg__left_menu_item--lvl2 {
+    background: #111111;
+    color: #cccccc;
+}
+
+.tg__left_menu_item--lvl3 {
+    background: #010101;
+    color: #cccccc;
+}
+/*end of sidebar*****************************************/
+
+.sportHeaderPaneUpperRow,
+.sportHeaderPaneLowerRow,
+.tg__footer {
+    background-color: #202020;
+    color: #999999;
+}
+
+.tg--issue {
+    background-color: #fff;
+    color: #000;
+}
+
+.tg__left_menu_item {
+    border-bottom-color: #000;
+}
+
+.live_menu_item_left {
+    border-bottom-color: #202020;
+}
+
+.live_menu_item_left .liveGameSelected {
+    border-top: 1px solid #F6C600;
+}
+
+.liveSportNamesContainer {
+    color: #FFFFFF;
+}
+
+.livesecScore,
+.tg_sidebar_text.tg-ico {
+    color: #999999;
+}
+
+.tsModalContent,
+.tg__dropdown_content,
+.tg__modal_big,
+.tg--express_combination {
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+}
+
+.tg__banner__date {
+    color: #cccccc;
+}
+
+.tg__submenu__item {
+    color: #999999;
+    border-radius: undefinedpx;
+}
+
+.tg__submenu__item.active,
+.tg__submenu__item:hover {
+    color: #fff;
+}
+
+.tg_team_name,
+.tg__open_event_img .title {
+    color: #999;
+}
+
+.tab_selector {
+    background-color: #111111;
+    color: #cccccc;
+}
+
+.ss__step_slider .ss__ruller > div.off {
+    background-color: #000000;
+}
+
+#line_tabs .selectorWrapper, #live_tabs_header .selectorWrapper {
+    background-color: #000000;
+}
+
+.tg__banner__heading {
+    color: #999999;
+}
+
+.tg__open_event_img .tg_score {
+    color: #fff;
+}
+
+.tab_selector.tab_selector_active,
+.tab_selector:hover {
+    background: #202020;
+    color: #fff;
+}
+
+.tg_sidebar_bg.tg__step_slider {
+    background-color: #393838;
+}
+
+.tg_widget_bg {
+    background-color: #202020;
+    color: #999;
+}
+
+.tg_subheader_btn,
+.tg__live_filter_item.checked {
+    background: #202020;
+    color: #999;
+}
+
+.tg__one_game,
+.live_menu_item,
+.tg__multi_game,
+.prematch_event_odds_container {
+    background: #202020;
+    color: #fff;
+}
+
+.tg__one_game_team {
+    color: #fff;
+}
+
+.tg_widget_row {
+    border-bottom-color: #000;
+}
+
+.tg__match_item_stake,
+.tg--pos_comb_row,
+.tg__coupon_switches .tg__switch_cont,
+.tg--border-bot-1 {
+    border-color: #000000;
+}
+
+/*sidebar*/
+.tg_sidebar_bg_2.tg__step_slider {
+    background-color: #010101;
+    color: #fff;
+}
+
+.ss__step_slider .ss__slider,
+.ss__step_slider .ss__ruller > div {
+    background: undefined;
+}
+
+.tg_widget_header {
+    background-color: #393838;
+    color: #fff;
+}
+
+    .tg_widget_header .tg-ico-arrow {
+        color: #fff;
+    }
+
+.tg_widget_sub_row,
+.tg__input,
+.tg_input,
+.posCombItem,
+.tg__slider__btn:hover,
+#calc_new .tg__btn {
+    background-color: #393838;
+    color: #999;
+}
+
+.tg__results_header .tg__dropdown_value {
+    background: #202020;
+}
+
+.tg_input_coupon_amount {
+    color: #999999;
+}
+
+.tg__dropdown__item {
+    border-bottom-color: #000000;
+}
+
+    .tg__dropdown__item:hover,
+    .tg__dropdown__item.activeItem {
+        color: #999999;
+    }
+
+.tg__dropdown_content {
+    background-color: #2f2f2f;
+    color: #666666;
+}
+
+.tg__subhead .tg__dropdown_value {
+    background-color: #202020;
+}
+
+.tg__input:focus,
+.tg_input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px undefined;
+}
+
+.tg__modal_wrapper {
+    background-color: undefined;
+}
+
+.tg-ico-date {
+    color: #999999;
+}
+
+.tg__score_box {
+    background-color: #000000;
+}
+
+.tg__more {
+    background: #202020;
+    color: #fff;
+}
+
+    .tg__more:hover {
+        background: #202020;
+        color: #f6c600;
+    }
+
+.tg_widget_header_2, .tg--cashout-row,
+.tg--cashout-pagination-item,
+.tg--coupon-container .selector_panel,
+.tg__info_panel .selectorWrapper,
+.tg__match_header.tg_widget_header,
+.tg__prematch_header.tg_widget_bg,
+.lineEventHeaderWide.tg_widget_bg,
+.tg__live_list_header.tg_widget_header,
+.tg__multiview_header.tg_widget_header {
+    background-color: #393838;
+    color: #fff;
+}
+
+.tg__results_header.tg_widget_bg {
+    background-color: #202020;
+}
+
+.tg__calendar_header.tg_widget_heading {
+    background-color: #111111;
+}
+
+.tg__results_header .tg__dropdown_value,
+.tg__results_header .tg_input,
+.tg__dropdown_control {
+    background-color: #010101;
+}
+
+.tg__multiview_header.tg_widget_header .tg__one_game_team {
+    color: #fff;
+}
+
+    .tg_widget_header_2 .tab_selector_active {
+        background: #202020 !important;
+        color: #fff !important;
+    }
+
+.l_od,
+.l_od_empty {
+    background: #000000;
+    color: #fff;
+}
+
+    .l_od:hover,
+    .odCnt:hover .l_od,
+    .l_od.selectedOdd, .tg--cashout-item-cashout, .tg--cashout-pagination-item.active {
+        background: linear-gradient(to bottom, #BB9700, #F6C600, #BB9700);
+        color: #000;
+    }
+
+.tab_selector.tab_selector_active .tg__badge_live {
+    background-color: #CB0000;
+    color: #fff;
+}
+
+.tab_selector .tg__badge_live {
+    background-color: #202020;
+    color: #666666;
+}
+
+.tg_widget_tab_text,
+.tg__srv {
+    color: #ffd116;
+}
+
+.tg__fix_btn {
+    color: #fff;
+}
+
+
+.tg_widget_bg_2 .tg__dropdown_value {
+    background-color: #010101;
+    color: #999999;
+}
+
+.tg_widget_text_akcent {
+    color: #f6c600;
+}
+
+.tg__fix_btn.checked {
+    color: #F6C600;
+}
+
+.tg_widget_bg .tg-ico.active {
+    color: #f6c600 !important;
+}
+
+#calc_new .tg__btn-ternary,
+.tg__btn-ternary {
+    background: #ffd116;
+    color: #000;
+}
+
+.tg_widget_bg .tg__btn .tg-ico {
+    color: #000;
+}
+
+#calc_new .tg__btn-ternary:hover,
+.tg__btn-ternary:hover {
+    background-color: #ffd735;
+    color: #000;
+}
+
+.digi_scroll_dragger {
+    background-color: #f6c600;
+}
+
+.tg_widget_row .tg__one_game_icons,
+.tg_widget_row .tg__home_game_time,
+.tg-ico-arrow {
+    color: #666666;
+}
+
+.tg-bg_transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tg__switch .tg__switch_ico {
+    background-color: #999;
+}
+
+    .tg__switch .tg__switch_ico:before {
+        background-color: #fff;
+    }
+
+.tg__switch input:checked + .tg__switch_ico:before {
+    background: #ffd116;
+}
+/*calendar*/
+.ui-widgetBg-content {
+    background: #2f2f2f;
+    color: #666666;
+}
+
+.ui-widgetBg-header {
+    background: #2f2f2f;
+    color: #666666;
+}
+
+    .ui-state-default, .ui-widgetBg-content .ui-state-default, .ui-widgetBg-header .ui-state-default {
+        background: #373737;
+        color: #666666;
+    }
+
+    .ui-state-highlight, .ui-widgetBg-content .ui-state-highlight, .ui-widgetBg-header .ui-state-highlight {
+        background: #ffd116;
+        color: #000;
+    }
+
+    .ui-state-active, .ui-widgetBg-content .ui-state-active, .ui-widgetBg-header .ui-state-active {
+        background-color: #ffd735;
+        color: #000;
+    }
+/*calendar end*/
+
+.tg__btn,
+.l_od_empty,
+.l_od,
+.tg__dropdown_value,
+.tg__dropdown_content,
+.tg_input {
+    border-radius: 2px;
+}
+
+.tg__input-ico,
+.tg__input {
+    background: #202020;
+}
+
+@keyframes lightbox {
+    from {
+        color: #999999;
+    }
+
+    to {
+        color: #ffd116
+    }
+}
+
+.tg__tournament_ico_switch .tg__switch_text:before {
+    color: #ffd116
+}
+
+.tg_coin {
+    background: #ffd116;
+    color: #000;
+}
+
+.tg__match_item_btn {
+    background-color: #000000;
+    color: #fff;
+}
+
+.overviewEventSlider .tg__btn_arrow {
+    background-color: #393838;
+    color: #fff;
+}
+
+.sportLeftPane .liveFilterContainer {
+    background-color: #000000;
+    color: #999;
+}
+
+/* Bet history */
+.tg__bet_history_row .tg-clr-akcent,
+.tg__list_row_sub .tg-clr-akcent2,
+.tg__partial_cashout--icon,
+.tg-ico-cheque_redact.tg-clr-akcent2 {
+    color: #f6c600;
+}
+
+.tg__bet_history .tg__list_row.tg_sticky_bot {
+    background-color: #000000;
+}
+
+.tg__bet_history .tg_input,
+.tg__bet_history .tg__dropdown_control {
+    background-color: #010101;
+    color: #999999;
+}
+
+.tg_bet_history_order_row_sub {
+    border-bottom: 1px solid #202020;
+}
+/* book a bet skinning */
+.tg__modal_book_bet {
+    background-color: #202020;
+    color: #666666;
+}
+
+    .tg__modal_book_bet .tg__modal_header {
+        background-color: #393838;
+        color: #fff;
+    }
+
+    .tg__modal_book_bet .tg__list_bg {
+        background-color: #000000;
+    }
+
+    .tg__modal_book_bet .tg__list_row {
+        background-color: #2f2f2f;
+    }
+
+        .tg__modal_book_bet .tg__list_row:nth-child(even) {
+            background-color: #202020;
+        }
+
+    .tg__modal_book_bet .tg__border--color-akcent {
+        border-color: #ffd116;
+    }
+
+    .tg__modal_book_bet .tg-clr-akcent {
+        color: #ffd116;
+    }
+
+/* Right banner styles */
+.tg__custom_rightBanner_line,
+.tg__custom_rightBanner_desc {
+    border-top-color: #ffd116;
+}
+
+.tg__rightBanner_seeMore {
+    background: #ffd116;
+    color: #000;
+}
+
+.component_tax_data {
+    background-color: #000000;
+    color: #666666;
+}
+
+    .component_tax_data .tg-ico {
+        color: #f6c600;
+    }
+
+.component_tax_data_wrapper .component_tax_data_row strong {
+    color: #999999;
+}
+
+.tg__show_title[data-title]:hover:after {
+    background-color: #000000;
+    color: #999999;
+}
+
+.tg_badge_transparent {
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+.tg__coupon_switches {
+    border-bottom-color: #000000;
+}
+/* AfricanView */
+
+.africanView .tg__home2_game_heading {
+    background: #010101;
+    color: #fff;
+}
+
+.africanView .tg__live_list_header {
+    background: #202020;
+    color: #999999;
+}
+
+.africanView .tg--home2__stakeTypes {
+    backround: #202020;
+}
+
+.africanView .tg--home2__stakeItem {
+    background: #393838;
+    color: #FFFFFF;
+}
+
+    .africanView .tg--home2__stakeItem:hover,
+    .active .tg--home2__stakeItem {
+        background: linear-gradient(to bottom, #BB9700, #F6C600, #BB9700);
+        color: #000;
+    }
+
+/*temp*/
+.sportHeaderPaneUpperRow,
+.sportHeaderPaneLowerRow,
+.tg__footer {
+    display: none;
+}
+
+/* Bet History */
+.tg__bet_history .tg__filter {
+    background: #202020;
+    border-top: 1px solid #999;
+}
+
+.tg__bet_history .tg__home_game_heading,
+.tg__bonus .tg__home_game_heading {
+    background: #010101;
+}
+
+.tg__bet_history .tg__list_row:nth-child(odd) {
+    background: #202020;
+}
+
+.tg__bet_history .tg__list_row:nth-child(even) {
+    background: #2f2f2f;
+}
+
+.calc_content .tg__dropdown_control {
+    background-color: #010101;
+    color: #999999;
+} 
+.tg__modal_confirm {
+    background-color: #F6C600;
+    color: #000;
+}
+.tg__modal_confirm:hover {
+    background-color: #907400;
+}
+.tg__modal_header {
+    background-color: #393838;
+}
+.tg__modal_special_content {
+    background-color: #202020;
+}
+
+.SBheader.tg_widget_heading,
+.tg__home_game_heading {
+    background-color: #010101;
+}
+
+.africanView .SBhead,
+.tg__home2_game_heading-top {
+    background-color: #111111;
+}
+
+.tg__champ_header {
+    background-color: #010101;
+}
+
+.tg_left_filter_tabs.tg_left_filter_tabs_active {
+    color: #F6C600;
+}
+
+.sportLeftPane .liveFilterContainer {
+    background-color: #000000;
+}
+
+.tg__banner,
+.newsSliderMarketContainer {
+	background: #202020;
+    color: #fff;
+} 
+/*multi bet of the day skinning*/
+.tg__exp_of_day_header,
+.es__express_slider_arrow{
+	background-color: #202020;
+	color: #cccccc;
+}
+.es__express_slider_arrow:hover {
+	background-color: #131313;
+	color: #fff;
+}
+.tg__exp_of_day_one_game {
+	background-color: #202020;
+	color: #cccccc;
+	border-bottom: 1px solid #000000 !important;
+}
+.es__total_odd_container .tg-clr-secondary {
+	color: #cccccc;
+}
+
+.tg__exp_of_day_one_game .tg-ico,
+.digi-pv-multibets-event-name-container {
+	color: #fff;
+}
+.es__express_day_odd {
+	border-color: #000000;
+  color: #cccccc;
+}
+.es__bonus_odd_container,
+.es__express_day_coupon-button-container {
+	background-color: #131313;
+	color: #cccccc;
+}
+.es__bonus_odd_container i,
+.es__express_day_odd--total{
+	color: #f6c600;
+}
+.es__express_day_coupon {
+	background-color: #202020;
+	color: #cccccc;
+}
+/*multi bet of the day skinning*/

@@ -1,0 +1,280 @@
+﻿/*Pishbini*/
+/*.loader {
+	    background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);
+}*/
+
+#main_data_panel .tab_body_active {
+    background: #072862;
+}
+
+/*.htoh {
+    display:none !important;
+}*/
+
+.mainBg {
+    background-color: #757575;
+}
+
+.mobPremStakeName,
+.mobLiveStakeName {
+	color:#333;
+}
+
+.main_menu {
+    background-color: #082863;
+}
+
+.main_menu_item {
+    background-color: #082863;
+    color: #9da5a7;
+    border: none;
+    font-weight: bold;
+}
+
+    .main_menu_item.menu_active {
+        background-color: #0b0f2c;
+        color: #f7da10;
+        border:none;
+    }
+
+.sport_header_line {
+	background-color:#fff;
+}
+
+.event_page_data_panel .le_panel .odd_factor {
+	color:#fff;
+}
+
+.sport_count {
+	background-color:#fff;
+	color:#999;
+}
+
+.sliderBg {
+    background-color: #333333;
+    color: #fff;
+}
+.home_prematch_sports i, .events_page_sports i {
+	color:#fff;
+}
+.sectionBg{
+	background-color:#999;
+}
+
+.panelBg,
+.description {
+	background-color:#dadada;
+}
+
+.mainBtn {
+	background-color:#333;
+	border:none;
+	color:#fff;
+}
+
+.mainBtn a {
+	color:#fff;
+}
+
+#home_live_sports .sport_name {
+	color:#fff;
+}
+
+.gm h1,
+.gm h2{
+	color:#333;
+}
+
+.gm .score h3 {
+	color:#333;
+}
+
+.gm .score h4 {
+    color: #082863;
+}
+
+.oneGameClr {
+	background-color:#fff;
+}
+
+.odds_count {
+	background-color:#fff;
+	border:1px solid #999;
+	color:#999;
+}
+
+.odd_name, .odd_name_empty,
+.event_page_data_panel .le_panel .odd_name {
+    background-color: #e8e8e8 !important;
+	border:none;
+    border-bottom:2px solid #fff;
+	color:#4e4e4e;
+}
+
+.oddsClr {
+    background-color: #082863;
+    color: #fff;
+}
+
+.event_page_data_panel .le_panel .st {
+	background-color: #474747 !important;
+	color:#ffe71e;
+}
+
+.selectedOdd {
+	background-color:#ffe71e;
+	color:#111 !important;
+}
+
+.button_container {
+	background-color:#fff;
+}
+
+.btn_orange {
+	background-color:#ffe71e;
+	color:#111;
+}
+
+.events_page_sports .active i, .events_page_sports .active {
+    color: #02902a;
+}
+
+.btn_grey {
+    background-color: #082863;
+    color: #ffe71e;
+}
+
+.mobBACont:before {
+	background-color: #dadada;
+	color: #057c5c;
+}
+
+.headingMob,
+.profile_caption {
+    background-color: #e8e8e8;
+    color: #01143e;
+    border-bottom: 3px solid #01143e;
+}
+
+.puHead {
+    background-color: #01143e;
+    color: #e8e8e8;
+}
+
+
+
+.live_tabs_header .selector_panel .tab_selector_active,
+.tab_cupon.tab_selected {
+	background-color:#ffe71e;
+	color:#111;
+}
+
+.live_tabs_header .selector_panel .tab_selector,
+.tab_cupon{
+	background-color:#e0e0e0;
+	color:#333;
+}
+
+.liveMobtblHead {
+	background-color:#057c5c;
+	color:#fff;
+}
+
+.liveMobtblRow {
+	background-color:#666;
+	color:#fff;
+}
+
+.SearchContainerStyle ul li {
+	background-color:#c2c2c2;
+}
+
+.coupon-content .cp_builder .stakes_panel .stake_item {
+	background-color:#fff;
+}
+
+.cp_builder {
+	background-color:#474747;
+}
+
+.mobHeader {
+	background-color:#dadada;
+	color:#111;
+}
+
+.coupon-content .row, .coupon-content .row.commonCoeff, .coupon-content .row.aggOdd {
+	background-color:#dadada;
+	color:#111;
+}
+
+.stake_info .is_cashout_icon {
+	background-color:#474747;
+}
+
+.ma_mb_date {
+	color:#fff;
+}
+
+#BCClose, #coup_settings, #coup_close,
+.win_amount {
+	color: #111;
+}
+
+.msgTxt {
+	color:#fff;
+}
+
+.coupon-content {
+	background-color:#474747;
+}
+
+/*popup*/
+
+
+.puBody {
+	background-color:#666;
+	color:#fff;
+}
+
+.maBonusItem > div {
+    color: white;
+}
+
+
+
+
+.mainBtn {
+    background-color: #e0e0e0;
+    color: #0b0f2c;
+    border-top:none;
+    border-bottom:3px solid;
+    padding:15px 0;
+}
+
+.top_betting_heading, #home_live_header h5 a, #home_top_ten_header h5 a {
+    color: #0b0f2c;
+    
+} 
+        .finished_event_wrapper {
+            background-color: #072862;
+            color: #000;
+        }
+        .finished_event_header {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+        .finished_event_tournament_name {
+            background-color: #fff;
+            color: #000;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#ffb700 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+        .finished_event_score {
+            color: #ffb700;
+        }
+    

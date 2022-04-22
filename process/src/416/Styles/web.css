@@ -1,0 +1,847 @@
+:root {
+    --primaryBg: #3f1e0b;
+    --primaryTxt: #fff;
+    --primaryTxt2: #cccccc;
+    --primaryBg3: #803d16;
+    --accentBg: #ff7f00;
+    --accentG: #ff7f00;
+    --accentTxt: #fff;
+    --brandG: #c2000b;
+    --brandBg: #c2000b;
+    --brandTxt: #fff;
+    --actionButtonG: #ff7f00;
+    --actionButtonTxt: #fff;
+    --widgetG: #6a3313;
+    --widgetBg: #6a3313;
+    --widgetBg2: #95481b;
+    --widgetBg3: #ab521f;
+    --widgetRGBA: rgba(149, 72, 27, 0.5);
+    --widgetTxt: #fff;
+    --widgetTxt2: #cccccc;
+    --oddG: #3f1e0b;
+    --oddBg: #3f1e0b;
+    --oddTxt: #fff;
+    --showMoreG: #3f1e0b;
+    --showMoreTxt: #fff;
+    --headerBG: undefined;
+    --headerG: #6a3313;
+    --headerTxt: #fff;
+    --subHeaderG: #95481b;
+    --subHeaderBg: #95481b;
+    --subHeaderTxt: #fff;
+    --subHeaderTxt2: #cccccc;
+    --singleGameG: #6a3313;
+    --singleGameBg: #6a3313;
+    --singleGameTxt: #fff;
+    --singleGameTxt2: #cccccc;
+    --MenuLevel_ABg: #6a3313;
+    --MenuLevel_AG: #6a3313;
+    --MenuLevel_ATxt: #fff;
+    --MenuLevel_ATxt2: #cccccc;
+    --MenuLevel_BBg: #95481b;
+    --MenuLevel_BG: #95481b;
+    --MenuLevel_BTxt: #fff;
+    --MenuLevel_BTxt2: #cccccc;
+    --MenuLevel_CBg: #c05d23;
+    --MenuLevel_CG: #c05d23;
+    --MenuLevel_CTxt: #fff;
+    --MenuLevel_CTxt2: #cccccc;
+    --betSlipBg: #6a3313;
+    --betSlipTxt2: #cccccc;
+    --betSlipStakeG: #95481b;
+    --betSlipStakeBg: #95481b;
+    --betSlipStakeTxt: #fff;
+    --betSlipStakeTxt2: #cccccc;
+    --betSlipInputG: #95481b;
+    --betSlipInputTxt: #fff;
+    --betSlipButtonG: #95481b;
+    --betSlipButtonBg2: #c05d23;
+    --betSlipButtonTxt: #fff;
+    --popupHeaderG: #95481b;
+    --popupHeaderTxt: #fff;
+    --popupBg: #6a3313;
+    --popupG: #6a3313;
+    --popupTxt: #fff;
+    --popupTxt2: #cccccc;
+    --tabG: #95481b;
+    --tabBg: #95481b;
+    --tabTxt: #fff;
+    --tabTxt2: #cccccc;
+    --activeTabG: #6a3313;
+    --activeTabBg: #6a3313;
+    --activeTabTxt: #fff;
+    --sideBarTabG: #6a3313;
+    --sideBarTabTxt: #fff;
+    --sideBarActiveTabG: #95481b;
+    --sideBarActiveTabTxt: #fff;
+    --inputG: #95481b;
+    --inputTxt: #fff;
+    --inputTxt2: #cccccc;
+    --widgetInputG: #803d16;
+    --widgetInputBg2: #ac521d;
+    --widgetInputTxt: #fff;
+    --widgetInputTxt2: #cccccc;
+    --borderRadius: 0px;
+    --inputBirderRadius: 0px;
+    --bottomBirderRadius: 0px;
+    --spritePositionX: 0px;
+}
+
+[class^="digi_tournament_"]:before,
+[class*=" digi_tournament_"]:before {
+    background-position-x: var(--spritePositionX) !important;
+}
+
+.tg_widget_heading_1 {
+    margin-top: 0;
+}
+
+.tg__multi_game {
+    padding: 0 !important;
+}
+
+.tg_input::placeholder {
+    color: var(--inputTxt2);
+}
+/* - - - - Primary - - - - */
+
+body,
+.tg_bg,
+.tg__result_item,
+.tg__live_filter_item {
+    background-color: var(--primaryBg);
+    color: var(--primaryTxt);
+}
+
+.tg__left_menu_item,
+.live_menu_item_left,
+.live_menu_item_left .tg--left_live_odds,
+.tg__one_game,
+.paperView .champ_list:last-child,
+.tg__match_item_stake,
+.tg--pos_comb_row,
+.tg--border-bot-1 {
+    border-color: var(--primaryBg);
+}
+
+.tg__submenu__item {
+    color: var(--primaryTxt2);
+}
+
+    .tg__submenu__item.active,
+    .tg__submenu__item:hover {
+        color: var(--primaryTxt);
+    }
+
+#line_tabs .selectorWrapper,
+#live_tabs_header .selectorWrapper,
+#line_tabs .tabsWithMarketFilter,
+#live_tabs_header .tabsWithMarketFilter {
+    background-color: var(--primaryBg);
+}
+
+.tg__btn-action {
+    background: var(--actionButtonG) !important;
+    color: var(--actionButtonTxt) !important;
+}
+/* - - - - Widget - - - - - */
+.tg__live_list_header,
+.tg__multiview_content {
+    background-color: var(--widgetBg);
+    color: var(--widgetTxt);
+}
+
+.tg-hero {
+    background-color: var(--widgetBg);
+    color: var(--widgetTxt);
+}
+
+.tg-bg_transparent {
+    background-color: var(--widgetRGBA);
+}
+
+/* - - - - Left Menu Level 1 - - - - */
+.tg__left_menu_item--lvl1 {
+    background: var(--MenuLevel_AG);
+    color: var(--MenuLevel_ATxt);
+}
+
+    .tg__left_menu_item--lvl1 .tg__left_menu_item_text,
+    .tg__left_menu_item--lvl1 .tg-ico-arrow {
+        color: var(--MenuLevel_ATxt2);
+    }
+
+.ss__step_slider .ss__slider,
+.ss__step_slider .ss__ruller > div {
+    background: var(--widgetTxt2);
+}
+
+    .ss__step_slider .ss__slider:hover {
+        background: var(--accentBg);
+    }
+
+.ss__step_slider .ss__ruller > .off {
+    background: var(--widgetBg);
+}
+
+/* - - - - Left Menu Level 2 - - - - */
+.tg__left_menu_item--lvl2 {
+    background: var(--MenuLevel_BG);
+    color: var(--MenuLevel_BTxt);
+}
+
+    .tg__left_menu_item--lvl2 .tg__left_menu_item_text,
+    .tg__left_menu_item--lvl2 .tg-ico-arrow {
+        color: var(--MenuLevel_BTxt2);
+    }
+
+/* africanView */
+.africanView .SBhead {
+    background: var(--headerG);
+    color: var(--headerTxt);
+}
+
+.africanView .gameContentTitle {
+    background: var(--primaryBg);
+    color: var(--primaryTxt);
+}
+
+.africanView .champCont {
+    background: var(--singleGameG);
+    color: var(--singleGameTxt);
+}
+
+.africanView .tg_left_tabs {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt2);
+    border-bottom-color: var(--accentBg);
+}
+
+.africanView .tg_left_filter_tabs_active {
+    color: var(--accentBg);
+}
+
+/* - - - - Left Menu Level 3 - - - - */
+.tg__left_menu_item--lvl3,
+.tg__list_row_heading,
+.tg_bet_history_order_row_sub:nth-child(even) {
+    background: var(--MenuLevel_CG);
+    color: var(--MenuLevel_CTxt);
+}
+
+    .tg__left_menu_item--lvl3 .tg__left_menu_item_text,
+    .tg__left_menu_item--lvl3 .tg-ico-arrow {
+        color: var(--MenuLevel_CTxt2);
+    }
+
+/* - - - - Passive Tab - - - - */
+.tab_selector {
+    background: var(--tabG);
+    color: var(--tabTxt2);
+}
+
+.sportLeftPane .tab_selector {
+    background: var(--sideBarTabG);
+    color: var(--sideBarTabTxt);
+}
+
+.tg__coupon_tabs_cont {
+    padding-top: 2px;
+}
+
+.tab_cupon {
+    background: var(--activeTabG);
+    color: var(--activeTabTxt);
+}
+
+    .tab_cupon.tab_selected,
+    .tab_cupon:hover {
+        background: var(--tabG);
+        color: var(--tabTxt2);
+    }
+
+/* - - - - Active Tab - - - - */
+.tab_selector.tab_selector_active,
+.tab_selector:hover,
+.tg_input,
+.tg_subheader_btn,
+.tg_live_center-wrapper .selectorWrapper,
+.tg__live_filter_item.checked,
+.tg__results_header .tg__dropdown_value,
+.tg__calendar_header .tg__dropdown_value {
+    background: var(--activeTabG);
+    color: var(--activeTabTxt);
+}
+
+.tg__dropdown_control {
+    background: var(--inputG);
+    color: var(--inputTxt);
+}
+
+.sportLeftPane .tab_selector.tab_selector_active {
+    background: var(--sideBarActiveTabG);
+    color: var(--sideBarActiveTabTxt);
+}
+
+/* - - - - Header - - - - */
+.gameContentTitle,
+.tg__result_group_heading {
+    background: var(--headerG);
+    color: var(--headerTxt);
+}
+
+/* africanView */
+.africanView .tg--home2__stakeItem {
+    background: var(--tabG);
+    color: var(--tabTxt);
+}
+
+.africanView .champCont {
+    margin: 0px;
+}
+
+.tg--selected_prem_game {
+    border-left: 2px solid;
+    border-color: var(--accentBg);
+}
+
+.tg__list_row {
+    margin: 0;
+    border-top: 1px solid var(--primaryBg);
+}
+
+.ds--myacc-history_list .tg_bet_history_order_row {
+    background: var(--widgetBg2);
+    color: var(--widgetTxt);
+    border: 0 !important;
+}
+
+    .ds--myacc-history_list .tg_bet_history_order_row:nth-child(Odd) {
+        background: var(--widgetBg);
+        color: var(--widgetTxt);
+    }
+
+.tg_bet_history_order_row .tg-clr-akcent {
+    color: var(--accentBg);
+}
+
+.tg_bet_history_order_row_sub {
+    background: var(--widgetBg2);
+    color: var(--widgetTxt);
+}
+
+.tg__list_row_sub {
+    background: var(--widgetBg3);
+    color: var(--widgetTxt);
+    border-bottom: 1px solid var(--primaryBg);
+}
+
+/* - - - - SubHeader - - - - */
+.tg__match_header,
+.tg__prematch_header,
+.live_sport_list .tg__left_menu_item--lvl3,
+.tg__calendar_header,
+.tg__calendar_cont,
+.tg__results_header,
+.tg__res_rus,
+.tg__multibet_heading,
+.tg__score_box,
+.overViewDataDanel .tg__btn_arrow,
+.tg__step_slider,
+.liveFilterContainer {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt);
+}
+
+.tg__home_game_heading {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt2);
+    border-top: 1px solid var(--widgetBg);
+}
+
+/* - - - - Single Game - - - - */
+.tg__one_game,
+.tg__match_item_stake,
+.tg__banner,
+.prematch_event_odds_container,
+.tg__multi_game,
+.live_menu_item_left .tg--left_live_odds,
+.tg__calendar_item,
+.dg1,
+.overviewEventBody,
+.tg_onegame_chb,
+.news_slider .oddsContainer {
+    background: var(--singleGameG);
+    color: var(--singleGameTxt2);
+}
+
+/*popups*/
+.tg_popup_body_static,
+.tg__modal,
+.tg__modal_big,
+.tg__cashout--wrapper {
+    background: var(--popupBg);
+    color: var(--popupTxt);
+}
+
+.tg__modal_header,
+.tg__modal_heading,
+.tg__cashout--header {
+    background: var(--popupHeaderG);
+    color: var(--popupHeaderTxt);
+}
+
+.tg__custom-range-slider {
+    color: var(--accentBg);
+}
+
+.tg--close {
+    background: var(--primaryBg);
+    color: var(--primaryTxt);
+}
+
+.tg__modal .tg__dropdown_control,
+.tg_popup_body_static .tg__dropdown_control,
+.tg__modal .tg_input,
+.tg_popup_body_static .tg_input,
+.tg__cashout--wrapper .tg_input {
+    background: var(--widgetInputG);
+    color: var(--widgetInputTxt);
+}
+
+.ui-widget-content {
+    border-color: var(--widgetBg2);
+    background: var(--widgetBg);
+    color: var(--widgetTxt);
+}
+
+.ui-widget-header {
+    border: 0;
+    background: var(--widgetG);
+    color: var(--widgetTxt);
+}
+
+    .ui-state-default,
+    .ui-widget-content .ui-state-default,
+    .ui-widget-header .ui-state-default,
+    .ui-datepicker-title select {
+        border: 0;
+        background: var(--primaryBg);
+        color: var(--primaryTxt);
+    }
+
+    .ui-state-highlight,
+    .ui-widget-content .ui-state-highlight,
+    .ui-widget-header .ui-state-highlight,
+    .ui-state-active,
+    .ui-widget-content .ui-state-active,
+    .ui-widget-header .ui-state-active,
+    .ui-datepicker-calendar .ui-state-hover {
+        background: var(--accentG);
+        color: var(--accentTxt);
+    }
+
+.tg__btn-text {
+    background: var(--widgetInputG);
+    color: var(--widgetInputTxt);
+}
+
+.tg__one_game_team {
+    color: var(--singleGameTxt);
+}
+
+.tg__one_game_col,
+.tg__home_game_time,
+.tg__one_game_icons,
+.tg__one_game .maIcons {
+    color: var(--singleGameTxt2);
+}
+
+.posCombItem {
+    background: var(--subHeaderG);
+}
+
+/* - - - - Odd - - - - */
+.l_od,
+.l_od_empty {
+    background: var(--oddG);
+    color: var(--oddTxt);
+}
+
+/* - - - - Show More - - - - */
+.tg__more {
+    background: var(--showMoreG);
+    color: var(--showMoreTxt);
+}
+
+/* - - - - Betslip Header - - - - */
+.tg__block_header,
+.tg__info_panel .selectorWrapper {
+    background: var(--popupHeaderG);
+    color: var(--popupHeaderTxt);
+}
+
+/* - - - - Accent - - - - */
+.tg_sidebar_text_akcent,
+.liveGameSelected .liveSportNamesContainer,
+.left_menu_line_active .tg__left_menu_item_text,
+.tg_widget_text_akcent {
+    color: var(--accentBg);
+}
+
+.tg-ico-cheque_redact.tg-clr-akcent2 {
+    color: var(--accentBg);
+}
+
+.tg_popup_body_static .tab_selector_active {
+    border-bottom: 2px solid var(--accentBg);
+}
+
+.tg-ico-fav.active {
+    color: var(--accentBg);
+}
+
+.tg__fix_btn.checked,
+.tg__fix_btn:hover {
+    color: var(--accentBg);
+}
+
+/* - - - - Brand - - - - */
+.l_od:hover,
+.l_od.selectedOdd,
+.tg__btn-ternary {
+    background: var(--brandG);
+    color: var(--brandTxt);
+}
+
+.tabSelectorHeading {
+    color: var(--brandBg);
+}
+
+/* africanView */
+.africanView .tg--home2__stakeItem:hover,
+.africanView .active .tg--home2__stakeItem,
+.africanView .tg--home2__stakeItem.stItem_active {
+    background: var(--brandG);
+    color: var(--brandTxt);
+}
+
+/* - - - - BetSlip - - - - */
+.tg__coupon {
+    background: var(--betSlipBg);
+    color: var(--betSlipTxt2);
+}
+
+.stake_item_panel {
+    background: var(--betSlipStakeG);
+    color: var(--betSlipStakeTxt2);
+    border-color: var(--primaryBg);
+    border-top: 0;
+}
+
+.coupon_sport_name_container {
+    color: var(--betSlipStakeTxt);
+}
+
+.tg__btn-coupon {
+    background: var(--betSlipButtonG);
+    color: var(--betSlipButtonTxt);
+}
+
+.tg--cashout-body,
+.tg__cashout_popup,
+.booking_number,
+.betchecker,
+.scout_panel,
+.bet_generator_wrapper {
+    background: var(--popupG);
+    color: var(--popupTxt);
+}
+
+.tg_coin {
+    background: var(--accentBg);
+    color: var(--accentTxt);
+}
+
+.tg__match_item_btn {
+    background: var(--showMoreG);
+    color: var(--showMoreTxt);
+}
+
+.tg--selected_prem_game .tg__match_item_btn {
+    background: var(--accentG);
+    color: var(--accentTxt);
+}
+
+.tg__modal_book_bet .tg__border--color-akcent {
+    border-color: var(--accentBg);
+}
+
+.tg__modal_book_bet .tg-clr-akcent {
+    color: var(--accentBg);
+}
+
+/* - - - - DropDown - - - - */
+.tg__dropdown_content {
+    background: var(--primaryBg);
+}
+
+.tg__input,
+.tg__info_panel .tg__dropdown_control,
+.tg__dropdown__item,
+.sportRightPane .tg_input {
+    background: var(--widgetInputG);
+    color: var(--widgetInputTxt);
+}
+
+    .tg__dropdown__item:hover {
+        background: var(--widgetInputBg2);
+    }
+
+    .sportRightPane .tg_input::placeholder {
+        color: var(--widgetInputTxt2);
+    }
+
+.tg__search_cont .tg__input {
+    background: var(--inputG);
+    color: var(--inputTxt);
+}
+
+.sportRightPaneRow .tg_subheader_btn {
+    background: var(--inputG);
+    color: var(--inputTxt);
+}
+
+.tg__search_cont .tg__input::placeholder {
+    color: var(--inputTxt2);
+}
+
+.tg__search_cont .tg__input-ico {
+    color: var(--inputTxt);
+}
+
+.tg__info_panel .tg_input_coupon_amount {
+    background: var(--betSlipInputG);
+    color: var(--betSlipInputTxt);
+}
+
+/* - - - - Input - - - - */
+.tg__input {
+    background: var(--inputG);
+    color: var(--inputTxt);
+}
+
+/* - - - - Accent - - - - */
+.tg_sidebar_text_akcent,
+.liveGameSelected .liveSportNamesContainer,
+.left_menu_line_active .tg__left_menu_item_text,
+.tg_widget_text_akcent,
+.tg__coupon_square,
+.tg__score_box,
+.tg__more:hover,
+.tg__btn-coupon:hover {
+    color: var(--accentBg);
+}
+
+.tg__coupon_square {
+    background: var(--betSlipInputG);
+}
+
+.tg__coupon_factor {
+    background: var(--betSlipButtonBg2);
+    color: var(--betSlipButtonTxt);
+}
+
+.es__stepped_slider_cont {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt);
+}
+
+.tg__badge_live {
+    background-color: var(--widgetBg);
+    color: var(--widgetTxt);
+}
+
+.tg-ico-date {
+    color: var(--widgetTxt);
+}
+
+.tg__switch input:checked + .tg__switch_ico {
+    background: var(--brandG);
+}
+
+/* Colors we can't change */
+.tab_selector_active .tg__badge_live {
+    background-color: #cb0000;
+    color: #fff;
+}
+
+.tg__switch .tg__switch_ico {
+    background-color: #999;
+}
+
+    .tg__switch .tg__switch_ico:before {
+        background-color: #fff;
+    }
+
+.tg--coupon-container.tg--coupon-single-tab .tab_selector_active {
+    background: transparent !important;
+    color: var(--popupHeaderTxt);
+}
+
+.paperView .es__home_bet_header {
+    background: var(--headerG);
+    color: var(--headerTxt);
+}
+/*paper view odds*/
+.paperView .component_odd_empty,
+.paperView .component_odd,
+.paperView .component_odd.selectedOdd {
+    background: var(--oddG);
+    color: var(--oddTxt);
+}
+
+    .paperView .component_odd:hover,
+    .paperView .component_odd_empty:hover,
+    .paperView .EUodds:hover,
+    .paperView .EUodds.selectedOdd,
+    .paperView .component_odd.selectedOdd {
+        background: var(--brandG);
+        color: var(--brandTxt);
+    }
+
+.showC {
+    background: var(--MenuLevel_AG);
+    color: var(--MenuLevel_ATxt);
+}
+
+/*multi bet of the day skinning*/
+.tg__exp_of_day_header,
+.es__express_slider_arrow {
+    background-color: var(--widgetBg);
+    color: var(--widgetTxt2);
+}
+
+    .es__express_slider_arrow:hover {
+        background-color: var(--widgetBg2);
+        color: var(--widgetTxt);
+    }
+
+.tg__exp_of_day_one_game {
+    background-color: var(--widgetBg);
+    color: var(--widgetTxt2);
+    border-bottom: 1px solid var(--primaryBg) !important;
+}
+
+.es__total_odd_container .tg-clr-secondary {
+    color: var(--widgetTxt2);
+}
+
+.tg__exp_of_day_one_game .tg-ico,
+.digi-pv-multibets-event-name-container {
+    color: var(--widgetTxt);
+}
+
+.es__express_day_odd {
+    border-color: var(--primaryBg);
+    color: var(--widgetTxt2);
+}
+
+.es__bonus_odd_container,
+.es__express_day_coupon-button-container {
+    background-color: var(--widgetBg2);
+    color: var(--widgetTxt2);
+}
+
+    .es__bonus_odd_container i,
+    .es__express_day_odd--total {
+        color: var(--accentBg);
+    }
+
+.es__express_day_coupon {
+    background-color: var(--widgetBg);
+    color: var(--widgetTxt2);
+}
+/*multi bet of the day skinning*/
+
+/* Inmutable styles */
+.tg__multiview_header,
+.tg-hero .sport_count,
+.tg__multiview_header .tg__one_game_team {
+    color: #ffffff;
+}
+
+/*scroll*/
+.digi_scroll_dragger {
+    background-color: var(--primaryBg3);
+}
+
+/*specific tabs*/
+.tg_calendar_subtab_wrapper {
+    border-bottom: 6px solid var(--activeTabBg);
+}
+
+.tg--calendar-tab {
+    border-bottom: 6px solid var(--activeTabBg);
+}
+
+.live_calendar .body_panel {
+    height: calc((100%) - 92px);
+}
+/*roundness*/
+.tg_calendar_subtab_wrapper {
+    margin-right: -1px;
+    margin-left: -1px;
+}
+
+    .tg_calendar_subtab_wrapper .tab_selector {
+        border-top-left-radius: 0 !important;
+        border-top-right-radius: 0 !important;
+        margin: 0 1px;
+    }
+
+.gameContentTitle,
+.tg__result_group_heading,
+.tg__block_header,
+.tg__modal_header,
+.tg__cashout--header,
+.tg__info_panel .selectorWrapper,
+.tg_popup_body_static,
+.tg__modal,
+.tg__modal_big,
+.tg__cashout--wrapper,
+.tg__match_header,
+.tg-hero,
+.tg-hero-image,
+.tg__live_list_header,
+.tg__multiview_content,
+.tab_cupon,
+.tab_selector,
+.tg__banner {
+    border-top-left-radius: var(--borderRadius);
+    border-top-right-radius: var(--borderRadius);
+}
+
+.tg__home_game_item .tg--2-tab {
+    margin-left: var(--borderRadius);
+    margin-right: var(--borderRadius);
+}
+/*input roundness*/
+.tg__dropdown_control,
+.tg__input,
+.tg_input,
+.tg__info_panel .tg__dropdown_control,
+.sportRightPane .tg_input,
+.tg__dropdown_value {
+    border-radius: var(--inputBirderRadius);
+}
+/*button roundness*/
+.tg__more,
+.tg__btn,
+.l_od,
+.l_od_empty,
+.paperView .component_odd_empty,
+.paperView .component_odd,
+.paperView .component_odd.selectedOdd {
+    border-radius: var(--bottomBirderRadius);
+}

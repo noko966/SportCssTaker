@@ -1,0 +1,126 @@
+﻿/*ArgoCasino mobile*/
+/*.loader {background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);}*/
+/*.stream, .hideStreamMob {display:none !important;}*/
+body {background-color:#000;}
+
+/*btn*/
+.btn_orange {background-color:#ffb900; color:#000;}
+.btn_grey {background-color:#201d16; color:#b99950;}
+/*header*/
+.main_menu {background-color:#161510; margin-bottom:1px;}
+.main_menu_item {background-color:#201d16; color:#b99950; border-color:#494843;}
+.main_menu_item.menu_active {background-color:#ffb900; color:#000; border-color:#fec72f;}
+
+/*slider*/
+.sport_header_line {background-color:#201d16;}
+.prematch_sport .sport_count {background-color:#201d16; color:#f2f0bf;}
+.sliderBg {background-color:#161510;}
+.home_prematch_sports i, .events_page_sports i {color:#fff;}
+.prematch_sport .sport_name {color:#f2f0bf;}
+.events_page_sports .active i  {color:#f2f0bf;}
+
+/*live betting*/
+.mainBtn {background-color:#514632; border-color:#161510; color:#f0efbf;}
+.mainBtn > a {color:#f0efbf;}
+#home_live_sports .sport_name {color:#fff;}
+.sectionBg {background-color:#161510;}
+
+.oneGameClr {background-color:#272318;}
+.gm h1 {color:#fff;}
+.gm h2 {color:#f0efbf;}
+.gm .score h3 {color:#9d8044;}
+.gm .score h4 {color:#feba01;}
+
+.odds_count {background-color:#161510; border:1px solid #42413c; color:#ba9850;}
+.odd_name, .odd_name_empty {background-color:#201d16; border:0; color:#c5c69c; border-bottom:2px solid #272318;}
+
+.oddsClr {background-color:#161510; color:#fff;}
+.selectedOdd {background-color:#ffb900; color:#247322;}
+
+/*more*/
+.button_container {background-color:#201d16;}
+.button_container .same_button {background-color:#ffb900; color:#000;}
+
+/*prematch*/
+.mobPremStakeName {color:#fff;}
+.headingMob {background-color:#b99950; color:#000;}
+.event_details_item .stt {color:#696969;}
+.description {background-color:#201d16; color:#b99950;}
+.mobBACont:before {background-color:#000; color:#ffb900;}
+
+/*tabs*/
+.live_tabs_header .selector_panel .tab_selector_active, .tab_cupon.tab_selected {background-color:#514632; color:#cdcca0;}
+.live_tabs_header .selector_panel .tab_selector, .tab_cupon {background-color:#272318; color:#fff;}
+
+/*live*/
+.event_page_data_panel .champ_expense .expense {color:#ffb900;}
+.liveMobtblHead {background-color:#b99950; color:#000;}
+.liveMobtblRow {background-color:#201d16; color:#fff; border-color:#333;}
+.event_page_data_panel .le_panel .odd_name {background-color:#201d16 !important; border:0; }
+.event_page_data_panel .le_panel .st {color:#c5c69c;}
+
+/*coupon*/
+.mobHeader {background-color:#201d16; color:#fff;}
+#BCClose, #coup_settings, #coup_close, #search_close {color:#fff;}
+.coupon-content .caption .lbl .cnt {background-color:#272318; color:#fff;}
+.cp_builder, .stake_info .is_cashout_icon {background-color:#161510;}
+.coupon-content .cp_builder .stakes_panel .stake_item {background-color:#3d3624; color:#fff;}
+.coupon-content .row, .coupon-content .row.commonCoeff, .coupon-content .row.aggOdd {background-color:#1f1f1f; color:#fff;}
+.mobLiveStakeName {color:#fff;}
+
+.coupon-content .cp_builder .cp_footer .row .cp_system_ddl, .coupon-content .cp_builder .cp_footer .row .amount.multiCurrency {background-color:#fff; border:1px solid #696969;}
+.coupon-content .cp_builder .cp_footer .row .win_amount.multiCurrency, .coupon-content .cp_builder .cp_footer .chb_control {color:#fff;}
+
+/*coupon settings panel*/
+.coup_settings_panel {background-color:#201d16; color:#fff;}
+#one_click_bet, .coup_settings_panel .favam .favBox div {background-color:#fff;}
+
+/*keyboard*/
+.customKeybord {background-color:#201d16; border:1px solid #333;}
+.keybordNumber, .keybordActionButton {background-color:#e8e8e8; color:#333; border-radius:2px;}
+.customKeybord .keybordDone {background-color:#ffd607; color:#333;}
+.coupon-content .cp_success{color: #fff}
+/*bet history*/
+#ma_sections_tab .tab_body_active {
+    background-color: #000;
+}
+.profile_caption {background-color:#1f1f1f; color:#fac539;}
+#date_header, .ma_mb_date, .search_table .SearchDescStyle, .profile_user_history_item .hide_footer:after, .profile_user_history_item .history_item_row_footer .footer_btn:after {color:#fff;}
+.dropDownControl select, .search_table .textbox {background-color:#fff;}
+
+/*popups*/
+.puHead {background-color:#514632;}
+.puBody {background-color:#201d16;}
+
+.txt_search {background-color:#fff; color:#000;}
+#search_close {color:#000;}
+
+
+.maBonusItem > div {
+    color: white;
+}
+
+ 
+        .finished_event_wrapper {
+            background-color: #181510;
+            color: #fff;
+        }
+        .finished_event_header {
+            background-color: #17150e;
+            color: #fff;
+        }
+        .finished_event_tournament_name {
+            background-color: #272318;
+            color: #fff;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#ffb900 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #17150e;
+            color: #fff;
+        }
+        .finished_event_score {
+            color: #ffb900;
+        }
+    

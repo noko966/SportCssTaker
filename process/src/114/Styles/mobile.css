@@ -1,0 +1,162 @@
+﻿/*VBetStars Colors (new name:ArianBet (FastBet))*/ 
+
+/*.loader {background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);}*/
+/*.stream, .hideStreamMob {display:none !important;}*/
+body{background-color: #fff;}
+/*btn*/
+.btn_orange, a.btn_orange{background-color:#e3002a; color:#fff !important;}
+.btn_grey {background-color:#008080; color:#fff;}
+/*header*/
+.main_menu {background-color:#fff;}
+.main_menu_item {
+	background-color: #181F29;
+	color: #fff;
+	border: 1px solid #000;
+}
+.main_menu_item.menu_active {background-color:#000; color:#E63145; border:none;}
+#home_live_sports .sport_name{
+	color: #535353;
+}
+
+/*slider*/
+.sport_header_line {background-color:#888;}
+.prematch_sport .sport_count {background-color:#888; color:#535353;}
+.sliderBg {background-color:#fff;}
+.home_prematch_sports i, .events_page_sports i {color:#535353;}
+.prematch_sport .sport_name {color:#023870;}
+.events_page_sports .active i  {color:#e3002a;}
+
+/*live betting*/
+.mainBtn {background-color:#EAEAEA; border-color:#CCC; color:#E63245;}
+.mainBtn > a {color:#E63245;}
+.sectionBg {background-color:#EAEAEA;}
+
+.oneGameClr {background-color:#fff; border-radius: 5px}
+.gm h1, .gm h2 {color:#000;}
+.gm .score h3 {color:#B3B3B3;}
+.gm .score h4 {color:#e4002a;}
+.txt_search{background-color: #fff; color: #333;}
+.odds_count {background-color:#999; color:#fff; border: none;}
+.odd_name, .odd_name_empty {background-color:#CBCBCB;color:#535353; border: none}
+
+.oddsClr {background-color:#DEE8F1; color:#000; }
+
+.odd_factor_empty {padding-bottom: 4px;}
+.selectedOdd {background-color:#E63245; color:#fff;}
+.mobLiveStakeName, .coefficient_container .sportIcon {color: #2c445b;} 
+.event_page_data_panel .le_panel .stt {background-color:#89a4bf; color: #183046; }
+
+/*more*/
+.button_container {background-color:#eaeaea;}
+.button_container .same_button {background-color:#008080; color:#fff;}
+
+/*prematch*/
+.headingMob {background-color:#535353; color: #fff;}
+.event_details_item .stt {color:#696969;}
+.description {background-color:#E6E6E6; color:#535353;}
+.mobBACont:before {background-color:#fff; color:#000;}
+.is_cashout_icon{color: #535353}
+.short_id {background-color:#B8B8B8; color: #535353;}
+/*tabs*/
+.live_tabs_header .selector_panel .tab_selector_active, .tab_cupon.tab_selected {
+	background-color: #535353;
+	color: #E63145;
+}
+.live_tabs_header .selector_panel .tab_selector {background-color:#B8B8B8; color:#535353;}
+ .tab_cupon {background-color: #B8B8B8; color: #535353}
+/*live*/
+.event_page_data_panel .champ_expense .expense {color:#ffe61d;}
+.liveMobtblHead {background-color:#023870; color:#89a4c1;}
+.liveMobtblRow {background-color:#fff; color:#333; border-color:#696969;}
+.event_page_data_panel .le_panel .odd_name {background-color:#8e9db4 !important; border:0; }
+.event_page_data_panel .le_panel .st, .st {background-color:#DEE8F1 !important; color:#000;}
+.shp1{background-color: #b9c1ce !important}
+#gameStatus{color: #fff}
+/*coupon*/
+.mobHeader {background-color:#EAEAEA; color:#535353;}
+#BCClose, #coup_settings, #coup_close, #search_close {color:#535353;}
+.coupon-content .caption .lbl .cnt {background-color:#fff; color:#333;}
+.stake_info .is_cashout_icon {background-color: #eaeaea;}
+.cp_builder {background-color: #fff;} 
+.btn_grey.btn_back:nth-last-of-type(2){background-color: #353535; color: #fff;}
+.stake_info .is_cashout_icon {color: #535353;}
+.coupon-content .cp_builder .stakes_panel .stake_item {background-color:#fff; border: 1px solid #CCC; border-radius: 4px; box-shadow: 0px 9px 10px -5px #999;}
+.coupon-content .row, .coupon-content .cp_builder .stakes_panel .stake_item .stake_buttons div {background-color:#fff; color: #535353}
+.coupon-content .row.commonCoeff, .coupon-content .row.aggOdd {background-color: #fff;}
+.bg_header {background-color: #023870;}
+#bookingContainer .tabSelectorText {color: #023873;}
+.bbCont {border: 1px solid #023873; border-radius: 3px;}
+.cp_builder .tab_cupon{background-color: #EAEAEA; color: #535353}
+.cp_builder .tab_cupon.tab_selected{background-color: #fff; color: #e3002a}
+.coupon-content .cp_builder .cp_footer .row .cp_system_ddl, .coupon-content .cp_builder .cp_footer .row .amount.multiCurrency {
+	background-color: #f5f5f5;
+	border: 1px solid #696969;
+}
+.coupon-content .cp_builder .cp_footer .row .win_amount.multiCurrency, .coupon-content .cp_builder .cp_footer .chb_control {color:#696969;}
+
+/*coupon settings panel*/
+.coup_settings_panel {background-color:#fff; color:#013970;}
+#one_click_bet, .coup_settings_panel .favam .favBox div {background-color:#f5f5f5; border:1px solid #696969;}
+
+/*keyboard*/
+.customKeybord {background-color:#fff;}
+.keybordNumber, .keybordActionButton {background-color:#e8e8e8; color:#333; border-radius:2px;}
+.customKeybord .keybordDone {
+    background-color: #023870;
+    color: #333;
+}
+
+/*bet history*/
+#ma_sections_tab .tab_body_active {background-color:#023870;}
+.profile_caption {background-color:#e3002a; color:#fff;}
+#date_header, .ma_mb_date, .search_table .SearchDescStyle, .profile_user_history_item .hide_footer:after {color:#fff;}
+.profile_user_history_item .history_item_row_footer .footer_btn:after { color: #999;}
+#betchecker{background-color: #fff}
+.profile_user_history_item {background-color: #fff;}
+#betchecker .search_table .SearchDescStyle {background-color: #023870; color: #6f8dad}
+.BCHeader{color: #fff;}
+.betCheckerContainer, .betCheckerBody, .betCheckerInputBox{background-color: #e4e4e4;}
+.dropDownControl select, .search_table .textbox {background-color:#f5f5f5; border:1px solid #696969;}
+
+.maBonusItem > div {
+    color: white;
+}
+.puHead {
+    background-color: #023870;
+}
+.puBody {
+    background-color: #fff;
+    color: #70869b
+}
+
+.mainBg {
+    background-color: #002245;
+}
+
+.babBg .SearchDesc, .betBookFooter .bb {background-color: #72849c; Color: #19354d; }
+
+
+ 
+        .finished_event_wrapper {
+            background-color: #B8B8B8;
+            color: #000;
+        }
+        .finished_event_header {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+        .finished_event_tournament_name {
+            background-color: #fff;
+            color: #000;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#e3002b 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+        .finished_event_score {
+            color: #e3002b;
+        }
+    

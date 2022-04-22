@@ -1,0 +1,263 @@
+﻿/* MatrixMobile */
+
+/*------------------------------ texts colors ----------------------------------*/
+.main_txt, a {
+	color: #ffffff;
+}
+.mobHeader {
+	background-color: #0A0A0A;
+}
+/*primary text color*/
+.highlight_txt, .error {
+	color: #F14000;
+}
+.coupon-content .row {
+	background-color: #011519
+}
+
+.icon_color_light {
+	color: #ffffff;
+}
+/*light icon color*/
+.icon_color {
+	color: #88898d;
+}
+/*main icon color*/
+.icon_color_highlight {
+	color: #FF4100;
+}
+/*active icon color*/
+.icon_color_dark {
+	color: #717171;
+}
+/*icons dark color*/
+
+/* ---------------------------------background colors ---------------------------*/
+.bg_main, .error {
+	background-color: #02151A;
+}
+
+.headingMob, .txt_search {
+	background-color: #02151A;
+	color: #ffffff
+}
+.is_cashout_icon{
+	color: rgba(110,110,110,1)
+}
+
+.button_container {
+	background-color: #1392A5;
+}
+/*menu item background color*/
+.bg_title {
+	background-color: #1392A5;
+}
+.coupon-content .cp_builder .stakes_panel .stake_item{
+	border: 1px solid #000;
+	background: #e6e6e6;
+}
+/*odd background color*/
+.bg_highlight, .selectedOdd {
+	background-color: #00A4B5;
+}
+/* active items background color */
+.bg_dd_list {
+	background-color: #0a0a0a;
+}
+/*drop down list background color*/
+
+/* ---------------------------------border colors --------------------------------*/
+.border_bg {
+	border-color: #000000;
+}
+/*primary border color*/
+.border_highlight {
+	border-color: #FF4100 !important;
+}
+/*highlight border color*/
+.border_middle {
+	border-color: #333333 !important;
+}
+/*middle border color*/
+.border_main {
+	border-color: #666666 !important;
+}
+/*main border color*/
+
+/*-------------------------------  lines styles  --------------------------------*/
+.orang_line {
+	border: none !important;
+	background: #ff4100; /* Old browsers */
+	background: -moz-linear-gradient(left, #000000 0%, #ff4100 50%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(50%,#ff4100), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to right, #000000 0%,#ff4100 50%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	height: 1px !important;
+}
+
+.gray_line {
+	background: rgb(10,10,10); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(10,10,10,1) 0%, rgba(110,110,110,1) 50%, rgba(10,10,10,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(10,10,10,1)), color-stop(50%,rgba(110,110,110,1)), color-stop(100%,rgba(10,10,10,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#0a0a0a',GradientType=1 ); /* IE6-9 */
+	height: 1px !important;
+}
+
+
+/*-------------------------------  button styles  ---------------------------------*/
+.btn_grey {
+	color: #fff;
+	background: #181818;
+	border: none;
+	box-shadow: none;
+	border-top: 1px solid #181818;
+	border-radius: 2px;
+}
+.coupon-content .row.commonCoeff, .coupon-content .row.aggOdd {
+	background-color: #011519
+}
+
+.btn_orange {
+	color: #000;
+	background: #FAFF47;
+	border: none;
+	box-shadow: none;
+	border-top: 1px solid #FD8659;
+	border-radius: 2px;
+}
+.stake_info .is_cashout_icon {
+	color: #999;
+	background-color: #011519
+}
+/*MAIN BG COLOR*/
+.header,
+.main_menu {
+	background-color: #042E39;
+}
+
+.rt {
+	background-color: #363738;
+}
+
+.event_page_header_champ_country {
+	background-color: #181818 !important;
+}
+
+
+
+	.main_menu_item.menu_active, .tab_cupon.tab_selected {
+		background-color: #FAFF47;
+		color: #000;
+	}
+
+/*.loader {
+	    background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);
+}*/
+ .orang_line {
+	display: none;
+}
+
+.sliderBg {
+	background-color: #0A0A0A;
+}
+.home_prematch_sports i{
+	color: #fff;
+}
+
+.coupon-content .cp_builder .stakes_panel .stake_item .stake_info .ev_name {
+	color: #1B2828;
+}
+.mainBtn {
+	background-color: #02151A;
+	border: none
+}
+#home_live_sports .sport_name {
+	color: #fff;
+}
+.sectionBg {
+	background-color: #1392A5;
+}
+.oneGameClr {
+	background-color: #1B2828
+}
+.odds_count {
+	background-color: #181818;
+	color: #fff;
+}
+.odd_name, .odd_name_empty {
+	background-color: #02151A;
+	border: none;
+	color: #fff;
+}
+.oddsClr{
+	background-color: #000;
+}
+.gm .score h4 {
+	color: #fff;
+}
+.events_page_sports .active i {
+	color: #FAFF47;
+}
+.tab_cupon {
+	background-color: #0A0A0A;
+	color: #fff;
+}
+
+.main_menu_item {
+    background-color: #131616;
+    border-top: 0px solid transparent; 
+}
+
+.header,
+.main_menu {
+	background-color: #042E39;
+}
+
+.sport_header_line {
+	background-color: #011519;
+	
+}
+
+.prematch_sport .sport_count {
+	color: #fff;
+}
+
+.st_name.prime_txt {
+	color: #000000;
+} 
+.no_express.prime_txt {
+	color: #000;
+}
+#favorite_tournaments_container .sportIcon {
+	color: #FAFF47;
+} 
+        .finished_event_wrapper {
+            background-color: #00A4B5;
+            color: #fff;
+        }
+        .finished_event_header {
+            background-color: #111919;
+            color: #fff;
+        }
+        .finished_event_tournament_name {
+            background-color: #1b2828;
+            color: #fff;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#FAFF47 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #111919;
+            color: #fff;
+        }
+        .finished_event_score {
+            color: #FAFF47;
+        }
+    

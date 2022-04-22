@@ -1,0 +1,250 @@
+﻿/*CepBahis*/
+.main_menu {
+	border-bottom: 2px solid #19af87;
+	background-color: #e8e6e7;
+}
+.main_menu_item {
+	background-color: #4d5059;
+	color: #fff;
+	border: none;
+	border-radius: 6px;
+}
+
+	.main_menu_item.menu_active {
+		background-color: #19af87;
+		color: #fff;
+	}
+
+.sport_header_line {
+	background-color: #e8e6e7;
+}
+
+.event_page_data_panel .le_panel .odd_factor {
+	color: #fff;
+}
+
+.sport_count {
+	color: #616161;
+}
+
+.sliderBg, .panelBg, .description {
+	background-color: #4d4f59;
+}
+
+.sectionBg {
+	background-color: #ececec;
+}
+
+.mainBtn {
+	background-color: #19af87;
+	border: none;
+	color: #fff;
+}
+
+	.mainBtn a {
+		color: #fff;
+	}
+
+#home_live_sports .sport_name {
+	color: #29292b;
+	text-align: center;
+}
+
+.gm h1,
+.gm h2,
+.gm .score h3 {
+	color: #616161;
+}
+
+.gm .score h4 {
+	color: #4c9c75;
+}
+
+.oneGameClr {
+	background-color: #fff;
+}
+
+.odds_count {
+	background-color: #19af87;
+	border-top: none;
+	color: #fff;
+	border-radius: 9px;
+}
+
+.event_page_data_panel .le_panel .odd_name {
+	background-color: #e7e7e7;
+	border-top: 1px solid #4d5059
+}
+
+.btn_orange {
+	background-color: #19af87;
+	color: #fff;
+}
+
+.events_page_sports .active i,
+.events_page_sports .active .sport_name {
+	color: #19af87;
+}
+
+#bookingContainer .tabSelectorText {
+	color: #111;
+}
+
+.btn_grey,
+.mobBACont:before {
+	background-color: #8d8d8d;
+	color: #fff;
+}
+
+.headingMob,
+.profile_caption {
+	background-color: #c7c7c7;
+	color: #111;
+}
+
+.live_tabs_header .selector_panel .tab_selector_active,
+.tab_cupon.tab_selected {
+	background-color: #19af87;
+	color: #fff;
+}
+#events_page_filter{
+	border-bottom: 1px solid #fff;
+}
+
+.live_tabs_header .selector_panel .tab_selector,
+.tab_cupon {
+	background-color: #c2c2c2;
+	color: #4c4c4c;
+}
+
+.liveMobtblHead {
+	background-color: #dadada;
+	color: #111;
+}
+
+.liveMobtblRow {
+	background-color: #fff;
+	color: #111;
+}
+
+.home_prematch_sports i, .events_page_sports i {
+	color: #19af87;
+}
+
+.coupon-content .cp_builder .stakes_panel .stake_item {
+	background-color: #fff;
+}
+
+.cp_builder {
+	background-color: #eae9e9;
+}
+
+.mobHeader {
+	background-color: #dadada;
+	color: #111;
+}
+
+.stake_info .is_cashout_icon {
+	background-color: #fff;
+}
+
+.prematch_sport .sport_name {
+	color: #fff;
+}
+
+.coupon-content .row, .coupon-content .row.commonCoeff, .coupon-content .row.aggOdd {
+	background-color: #dadada;
+	border: 1px solid #dadada;
+}
+
+#BCClose, #coup_settings, #coup_close,
+.msgTxt,
+.win_amount {
+	color: #111;
+}
+
+.coup_settings_panel {
+	background-color: #eae9e9;
+	color: #111;
+}
+
+.mainBg {
+	background-color: #dadada;
+}
+
+.SearchDesc,
+.ma_mb_date,
+.search_table .SearchDescStyle {
+	color: #111;
+}
+
+.maBonusItem > div {
+	color: white;
+}
+
+.odd_name, .odd_name_empty {
+	background-color: #ececec;
+	border: none;
+	border-radius: 8px 8px 0 0;
+	color: #41434f;
+	border-top: 1px solid #4d5059;
+}
+
+.oddsClr {
+	background-color: transparent;
+	color: #fff;
+}
+
+.odd_factor, .odd_factor_empty {
+	background-color: #4d5059;
+	color: #fff;
+	border-radius: 0 0 8px 8px;
+	height: 21px;
+}
+
+.selectedOdd {
+	background-color: #19af87 ;
+	color: #fff ;
+}
+.event_page_data_panel .le_panel .st {
+	border-color: #4d5059 !important;
+	background-color: #fff !important;
+	border-radius: 0 0 8px 8px;
+}
+.event_details_item .st .odd_name {
+	border-top: 1px solid #4d5059;
+}
+.button_container {
+	color: #b4b5b9;
+	background-color: #fff;
+}
+.mainBtn.ui-collapsible-heading{
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+#favorite_tournaments_container .sportIcon {
+	color: #29292b;
+} 
+        .finished_event_wrapper {
+            background-color: #E8E7E7;
+            color: #000;
+        }
+        .finished_event_header {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+        .finished_event_tournament_name {
+            background-color: #fff;
+            color: #000;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#009c74 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+        .finished_event_score {
+            color: #009c74;
+        }
+    

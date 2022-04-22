@@ -1,0 +1,298 @@
+﻿/* IRTOTO */
+
+/*------------------------------ texts colors ----------------------------------*/
+.main_txt, a {
+	color: #ffffff;
+}
+
+/*primary text color*/
+.highlight_txt, .error {
+	color: #F14000;
+}
+/*highlighted text color*/
+
+/* -------------------------------- sport icons colors -------------------------*/
+.icon_color_light {
+	color: #ffffff;
+}
+/*light icon color*/
+.icon_color {
+	color: #88898d;
+}
+/*main icon color*/
+.icon_color_highlight {
+	color: #FF4100;
+}
+/*active icon color*/
+.icon_color_dark {
+	color: #717171;
+}
+/*icons dark color*/
+
+/* --------------------------------- shadow colors -------------------------------*/
+.box_shadow {
+	-webkit-box-shadow: inset 0px -14px 10px -4px rgba(80,80,80,0.5);
+	-moz-box-shadow: inset 0px -14px 10px -4px rgba(80,80,80,0.5);
+	box-shadow: inset 0px -14px 10px -4px rgba(80,80,80,0.5);
+}
+
+.h_shadow {
+	-webkit-box-shadow: inset 0px 6px 16px 0px rgba(35,35,35,0.8);
+	-moz-box-shadow: inset 0px 6px 16px 0px rgba(35,35,35,0.8);
+	box-shadow: inset 0px 6px 16px 0px rgba(35,35,35,0.8);
+}
+/*header shadow*/
+
+/* ---------------------------------background colors ---------------------------*/
+.bg_main, .error {
+    background-color: #E6E6E6 !important;
+}
+/*main background color */
+.bg_back {
+	background-color: #0a0a0a !important;
+}
+/*background color*/
+.bg_main_header {
+	background-color: #303236 !important;
+}
+/*sport live main tabs color*/
+.bg_header {
+	background-color: #1e1e1e !important;
+}
+
+.bg_box {
+	background-color: #919191 !important;
+}
+
+.bg_block {
+	background-color: #333333 !important;
+}
+/*menu item background color*/
+.bg_title {
+	background-color: #272727 !important;
+}
+/*odd background color*/
+.bg_highlight, .selectedOdd {
+	background-color: #ef411c !important;
+}
+/* active items background color */
+.bg_dd_list {
+	background-color: #0a0a0a !important;
+}
+/*drop down list background color*/
+
+/* ---------------------------------border colors --------------------------------*/
+.border_bg {
+	border-color: #000000 !important;
+}
+/*primary border color*/
+.border_highlight {
+	border-color: #FF4100 !important;
+}
+/*highlight border color*/
+.border_middle {
+	border-color: #333333 !important;
+}
+/*middle border color*/
+.border_main {
+	border-color: #666666 !important;
+}
+/*main border color*/
+
+/*-------------------------------  lines styles  --------------------------------*/
+.orang_line {
+	border: none !important;
+	background: #ff4100; /* Old browsers */
+	background: -moz-linear-gradient(left, #000000 0%, #ff4100 50%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(50%,#ff4100), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to right, #000000 0%,#ff4100 50%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	height: 1px !important;
+}
+
+.gray_line {
+	background: rgb(10,10,10); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(10,10,10,1) 0%, rgba(110,110,110,1) 50%, rgba(10,10,10,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(10,10,10,1)), color-stop(50%,rgba(110,110,110,1)), color-stop(100%,rgba(10,10,10,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#0a0a0a',GradientType=1 ); /* IE6-9 */
+	height: 1px !important;
+}
+
+/*.hideStreamMob {
+	display: none !important;
+}*/
+
+/*-------------------------------  button styles  ---------------------------------*/
+.btn_grey {
+	color: #fff;
+	background: #484848;
+	border: none;
+	box-shadow: none;
+	border-top: 1px solid #7B7B7B;
+	border-radius: 2px;
+}
+
+.btn_orange {
+	color: #fff;
+	background: #f14100;
+	border: none;
+	box-shadow: none;
+	border-top: 1px solid #FD8659;
+	border-radius: 2px;
+}
+
+/*MAIN BG COLOR*/
+.header,
+.main_menu {
+	background-color: #111;
+}
+
+.rt {
+	background-color: #363738;
+}
+
+.event_page_header_champ_country {
+	background-color: #181818 !important;
+}
+
+
+.main_menu_item {
+    background-color: #2F2F2F;
+    border-color: #2F2F2F;
+    font-size: 12px;
+    color: #989898;
+    width: calc((50%) - 12px);
+}
+
+    .main_menu_item.menu_active {
+        background-color: #232323;
+        color: #EF411C;
+    }
+
+.btn_search_mob {
+    width: 38px;
+}
+
+
+#events_page_filter .filter_item span {
+    font-size: 12px;
+}
+
+
+    /*.loader {
+	    background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);
+}*/
+     .orang_line {
+	display: none;
+}
+.sport_header_line{
+	background: #333;
+}
+.sliderBg {
+	background-color: #1d1d1d;
+}
+.prematch_sport .sport_count, .home_prematch_sports i,
+.events_page_sports i, .prime_txt {
+	color: #fff;
+}
+.mainBtn{
+	background-color: #242424;
+}
+#home_live_sports .sport_name {
+	color: #fff;
+}
+.sectionBg{
+	background-color: #333;
+}
+.oneGameClr {
+	background-color: #2b2b2b
+}
+.odds_count {
+	background-color: #fff;
+	color: #7a7a7a;
+}
+.odd_name, .odd_name_empty {
+	background-color: #989898;
+	border-top: 1px solid #363636;
+	color: #363636;
+}
+.oddsClr{
+	background-color: #1d1d1d;
+}
+.gm .score h4 {
+	color: #ef411c;
+}
+.events_page_sports .active i, .events_page_sports .active .prime_txt {
+    color: #00912C;
+}
+.tab_cupon.tab_selected {
+	background-color: #ef411c;
+}
+.st {
+	background-color: #1d1d1d !important
+}
+.event_page_data_panel .le_panel .odd_name {
+	background-color: #989898;
+} 
+        .finished_event_wrapper {
+            background-color: #1A1A1A;
+            color: #fff;
+        }
+        .finished_event_header {
+            background-color: #262626;
+            color: #fff;
+        }
+        .finished_event_tournament_name {
+            background-color: #333;
+            color: #fff;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#f14100 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #262626;
+            color: #fff;
+        }
+        .finished_event_score {
+            color: #f14100;
+        }
+     
+    /*multi bet of the day*/
+    .digi-pv-multibets-header {
+      background-color:#2f2f2f;
+      color:#fff;
+    }
+    .digi-pv-multibets-event-info {
+      background-color: #333333;
+      color: #cccccc;
+    }
+    .digi-pv-multibets-event-info .tg-ico{
+        color: #fff;
+    }
+    .digi-pv-multibets-event-odd-container,
+    .digi-pv-multibets-bonus-odd-container,
+    .digi-pv-multibets-total-odds-container {
+      background-color: #1a1a1a;
+      color: #cccccc;
+    }
+    .digi-pv-multibets-bonus-odd-container .tg-ico{
+        color: #ffb700; 
+    }
+    .digi-pv-multibets-coupon-button {
+      background-color: #ffb700;
+      color: #000;
+    }
+    .es__express_day_odd{
+      background-color: #212121;
+      color: #fff;
+      border:1px solid #333333;
+    }
+    /*multi bet of the day*/
+    

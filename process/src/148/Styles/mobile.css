@@ -1,0 +1,397 @@
+﻿/*Ubomoney*/
+/*.loader {
+	    background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);
+}*/
+
+.is_cashout_icon {
+	display: none;
+}
+.mainBg {
+	background-color: #111;
+}
+
+.main_menu {
+	background-color: #1C1E21;
+	border-bottom: 2px solid #14805E;
+}
+
+.main_menu_item {
+	background-color: #5E5E60;
+	color: #fff;
+	border: none;
+}
+
+.main_menu_item.menu_active{
+	background-color: #14805E;
+}
+
+.sport_header_line {
+	background-color: #5E5E60;
+}
+
+.event_page_data_panel .le_panel .odd_factor {
+	color:#fff;
+}
+
+.sport_count {
+	background-color: #5E5E60;
+}
+
+.sliderBg {
+	background-color: #0A0A0A;
+	color: #fff;
+}
+
+.sectionBg {
+	background-color: #111111;
+}
+
+.panelBg,
+.description {
+	background-color: #5E5E60;
+	color: #fff;
+}
+
+.mainBtn {
+	background-color: #14805E;
+	border:none;
+	color:#fff;
+}
+
+.mainBtn a {
+	color: #fff;
+}
+
+.gm h1{
+	color:#fff;
+}
+
+.gm h2 {
+	color: #999999;
+}
+
+.gm .score h3 {
+	color: #fff;
+}
+
+.event_page_data_panel .le_panel .st {
+	background-color: #474747 !important;
+}
+
+.gm .score h4 {
+	color: #fff;
+}
+
+.oneGameClr {
+	background-color: #474747;
+}
+
+.odds_count {
+	background-color: #5E5E60;
+	border: 1px solid #5E5E60;
+	color: #FFFFFF;
+}
+
+.odd_name, .odd_name_empty{
+	line-height:13px;
+}
+
+.odd_name, .odd_name_empty,
+.event_page_data_panel .le_panel .odd_name {
+	background-color: #323335 !important;
+	color: #fff;
+}
+#multibet_live .odds .odd_factor{
+
+}
+.odd_factor_empty {
+	height: 21px;
+	line-height: 21px;
+	background-color: #5E5E60;
+}
+
+.oddsClr {
+	background-color: #474747;
+	color: #fff;
+}
+
+.selectedOdd {
+	background: #14805E!important;
+}
+
+.btn_orange {
+	background-color: #D32F2E;
+	color: #fff;
+}
+
+.events_page_sports .active i {
+	color: #14805E;
+}
+
+.btn_grey {
+	background-color: #14805E;
+	color: #fff;
+}
+
+.mobBACont:before {
+	background-color: #494949;
+	color: #fff;
+}
+
+.headingMob {
+	background-color: #2B2B2B;
+	color: #fff;
+}
+.profile_caption {
+	background-color: #14805E;
+	color: #fff;
+}
+
+.live_tabs_header .selector_panel .tab_selector_active,
+.tab_cupon.tab_selected {
+	background-color: #14805E;
+}
+
+.tab_cupon {
+	background-color: #474747;
+	color: #fff;
+}
+
+.live_tabs_header .selector_panel .tab_selector {
+	background-color: #14805E;
+	color: #fff;
+}
+
+.liveMobtblHead {
+	background-color: #14805e;
+	color: #fff;
+}
+
+.liveMobtblRow {
+	background-color:#666;
+	color:#fff;
+}
+
+.SearchContainerStyle ul li {
+	background-color: #2B2B2B;
+	color: #fff;
+}
+.SearchContainerStyle .jb {
+	background-color: #111;
+}
+
+.coupon-content .cp_builder .stakes_panel .stake_item {
+	background-color: #474747;
+	color: #fff;
+}
+
+.cp_builder {
+	background-color: #111;
+}
+
+.mobHeader {
+	background-color: #14805E;
+	color: #fff;
+}
+
+.coupon-content .row, .coupon-content .row.commonCoeff, .coupon-content .row.aggOdd {
+	background-color: #474747;
+	color: #fff;
+}
+
+.stake_info .is_cashout_icon {
+	background-color: #111;
+	color: #999;
+}
+
+#BCClose, #coup_settings, #coup_close,
+#calcBtn {
+	color: #fff;
+}
+
+.msgTxt,
+.win_amount {
+	color: #fff;
+}
+
+.coupon-content {
+	background-color:#474747;
+}
+
+/*popup*/
+.puHead {
+    background-color: #14805e;
+	color: #fff;
+}
+
+.puBody {
+	background-color: #111;
+	color: #fff;
+}
+
+.player_panel .err {
+    color: #fff;
+}
+.liveTvColor{background: #ed0304; color: #fff;}
+/*.st{background-color: #14805e !important; color: #fff;}
+.event_page_data_panel .le_panel .st {background-color: #14805e !important; color: #fff;}*/
+#calc_new.CalcModalContent .coeffsTitle {
+	color: #14805E;
+}
+
+#calc_new.CalcModalContent .primBtn {
+	background-color: #D32F2F;
+	color: #fff;
+}
+
+#calc_new.CalcModalContent .possWin #calc_new_winSum {
+    color: #1c8160;
+}
+
+.cp_success{
+	color:#fff;
+}
+
+.gm .odd_factor,
+.event_page_data_panel .le_panel .odd_factor,
+.event_details_item .st .odd_factor {
+	background: #5E5E60;
+}
+
+#main_data_panel .tab_body_active {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+#home_prematch_sports {
+	-webkit-box-ordinal-group: 2;
+	-ms-flex-order: 1;
+	order: 1;
+}
+
+#home_live_sports {
+	-webkit-box-ordinal-group: 4;
+	-ms-flex-order: 3;
+	order: 3;
+}
+
+#home_top_ten {
+	-webkit-box-ordinal-group: 3;
+	-ms-flex-order: 2;
+	order: 2;
+}
+#event_page_data_wrapper {
+	background-color: #111111;
+}
+#home_live_header, 
+#home_top_ten_header,
+#home_day_of_multi_bets_header {
+	background-color: #111111;
+}
+.short_id {
+	background-color: #262626;
+	color: #999999;
+}
+.live_tabs_header .oneGameClr {
+	background-color: #333333;
+	color: #fff;
+}
+#live_tabs_header .odd_name,
+.live_tabs_header .odd_name {
+	background-color: #474747 !important;
+}
+.live_tabs_header .is_cashout_icon {
+	color: #999999;
+}
+.event_page_data_panel .d,
+.event_page_data_panel .le_panel #live_bets_header {
+	background-color: #14805E;
+	border-top-color: #14805E;
+	border-bottom-color: #14805E;
+}
+.ma_mb_date,
+.SearchDesc,
+.SearchDescStyle {
+	color: #999;
+}
+.dropDownControl select {
+	background-color: #2B2B2B;
+	color: #999999;
+}
+.profile_user_history_item {
+	background-color: #474747;
+	color: #fff;
+}
+.profile_user_history_item .txt, 
+.profile_user_history_item .txt a{
+	color: #fff;
+}
+.history_item_row,
+.operation_item_row {
+	background-color: #5E5E60;
+	color: #fff;
+}
+#calc_new.CalcModalContent .CM-header {
+	background-color: #14805E;
+}
+#calc_new.CalcModalContent{
+	background-color: #111;
+	color: #999;
+}
+#calc_new.CalcModalContent .calc_content .dropDownControl select,
+#calc_new.CalcModalContent .calctextbox {
+	background-color: #2B2B2B;
+	border-color: #2B2B2B;
+	color: #999999;
+}
+
+#calc_new.CalcModalContent .CM-header .CM-close,
+#calc_new.CalcModalContent .CM-header .CMH-text{
+	color: #fff;
+}
+#main_data_panel,
+#multibet_live,
+#events_page_filter {
+	background-color: #111111;
+}
+.txt_search {
+	background-color: #5E5E60;
+}
+#srch_page_srch_res {
+	color: #fff;
+}
+#home_live_header .mainBtn, 
+#home_top_ten_header .mainBtn, 
+#home_day_of_multi_bets_header .mainBtn {
+	padding: 8px 0;
+	background-color: #14805E;
+}
+ 
+        .finished_event_wrapper {
+            background-color: #1C1E21;
+            color: #fff;
+        }
+        .finished_event_header {
+            background-color: #3a3a3a;
+            color: #fff;
+        }
+        .finished_event_tournament_name {
+            background-color: #474747;
+            color: #fff;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#14805E 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #3a3a3a;
+            color: #fff;
+        }
+        .finished_event_score {
+            color: #14805E;
+        }
+    

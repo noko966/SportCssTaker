@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        :root {
+            --id: 1;
+            --bodyBg: #161415;
+            --bodyBg2: #312c2e;
+            --bodyBg3: #3e383b;
+            --bodyBgHover: #1e1b1d;
+            --bodyBg2Hover: #393336;
+            --bodyBg3Hover: #463f43;
+            --bodyTxt: rgba(255, 255, 255, 0.9);
+            --bodyTxt2: rgba(255, 255, 255, 0.8);
+            --bodyTxt3: rgba(255, 255, 255, 0.6);
+            --bodyAccent: #f14100;
+            --bodyAccentTxt: #fff;
+            --bodyBorder: #1e1b1d;
+            --dominantBg: #2b2b2b;
+            --dominantBg2: #444444;
+            --dominantBg3: #515151;
+            --dominantBgHover: #333333;
+            --dominantBg2Hover: #4c4c4c;
+            --dominantBg3Hover: #595959;
+            --dominantTxt: rgba(255, 255, 255, 0.9);
+            --dominantTxt2: rgba(255, 255, 255, 0.8);
+            --dominantTxt3: rgba(255, 255, 255, 0.6);
+            --dominantTxtInverse: #262626;
+            --dominantAccent: #ffb700;
+            --dominantAccentTxt: #000;
+            --dominantBorder: #333333;
+            --accentBg: #ffb700;
+            --accentBg2: #cc9200;
+            --accentBg3: #b38000;
+            --accentBgHover: #f0ac00;
+            --accentBg2Hover: #bd8700;
+            --accentBg3Hover: #a47500;
+            --accentTxt: rgba(0, 0, 0, 0.9);
+            --accentTxt2: rgba(0, 0, 0, 0.8);
+            --accentTxt3: rgba(0, 0, 0, 0.6);
+            --accentBorder: #f0ac00;
+            --inputBg: #2b2b2b;
+            --inputBg2: #444444;
+            --inputBg3: #515151;
+            --inputBgHover: #333333;
+            --inputBg2Hover: #4c4c4c;
+            --inputBg3Hover: #595959;
+            --inputTxt: rgba(255, 255, 255, 0.9);
+            --inputTxt2: rgba(255, 255, 255, 0.8);
+            --inputTxt3: rgba(255, 255, 255, 0.6);
+            --inputAccent: #ffbe1a;
+            --inputAccentTxt: #000;
+            --inputBorder: #979797;
+            --inputSecondaryBg: #383838;
+            --inputSecondaryBg2: #515151;
+            --inputSecondaryBg3: #5e5e5e;
+            --inputSecondaryBgHover: #404040;
+            --inputSecondaryBg2Hover: #595959;
+            --inputSecondaryBg3Hover: #666666;
+            --inputSecondaryTxt: rgba(255, 255, 255, 0.9);
+            --inputSecondaryTxt2: rgba(255, 255, 255, 0.8);
+            --inputSecondaryTxt3: rgba(255, 255, 255, 0.6);
+            --inputSecondaryAccent: #ffbe1a;
+            --inputSecondaryAccentTxt: #000;
+            --headerBg: #333333;
+            --headerBg2: #4d4d4d;
+            --headerBg3: #595959;
+            --headerBgHover: #3b3b3b;
+            --headerBg2Hover: #555555;
+            --headerBg3Hover: #616161;
+            --headerTxt: rgba(255, 255, 255, 0.9);
+            --headerTxt2: rgba(255, 255, 255, 0.8);
+            --headerTxt3: rgba(255, 255, 255, 0.6);
+            --headerAccent: #ffbe1a;
+            --headerAccentTxt: #000;
+            --headerBorder: #3b3b3b;
+            --subHeaderBg: #2b2b2b;
+            --subHeaderBg2: #444444;
+            --subHeaderBg3: #515151;
+            --subHeaderBgHover: #333333;
+            --subHeaderBg2Hover: #4c4c4c;
+            --subHeaderBg3Hover: #595959;
+            --subHeaderTxt: rgba(255, 255, 255, 0.9);
+            --subHeaderTxt2: rgba(255, 255, 255, 0.8);
+            --subHeaderTxt3: rgba(255, 255, 255, 0.6);
+            --subHeaderAccent: #ffbe1a;
+            --subHeaderAccentTxt: #000;
+            --subHeaderBorder: #333333;
+            --eventBg: #333333;
+            --eventBg2: #4d4d4d;
+            --eventBg3: #595959;
+            --eventBgHover: #3b3b3b;
+            --eventBg2Hover: #555555;
+            --eventBg3Hover: #616161;
+            --eventTxt: rgba(255, 255, 255, 0.9);
+            --eventTxt2: rgba(255, 255, 255, 0.8);
+            --eventTxt3: rgba(255, 255, 255, 0.6);
+            --eventAccent: #ffb700;
+            --eventAccentTxt: #000;
+            --eventBorder: #3b3b3b;
+            --buttonBg: #197b30;
+            --buttonBg2: #22a541;
+            --buttonBg3: #26bb49;
+            --buttonBgHover: #1c8835;
+            --buttonBg2Hover: #25b246;
+            --buttonBg3Hover: #29c84e;
+            --buttonTxt: rgba(255, 255, 255, 0.9);
+            --buttonTxt2: rgba(255, 255, 255, 0.8);
+            --buttonTxt3: rgba(255, 255, 255, 0.6);
+            --buttonAccent: #cc9200;
+            --buttonAccentTxt: rgba(0, 0, 0, 0.9);
+            --buttonBorder: #ffffff;
+            --buttonSecondaryBg: #383838;
+            --buttonSecondaryBg2: #515151;
+            --buttonSecondaryBg3: #5e5e5e;
+            --buttonSecondaryBgHover: #404040;
+            --buttonSecondaryBg2Hover: #595959;
+            --buttonSecondaryBg3Hover: #666666;
+            --buttonSecondaryTxt: rgba(255, 255, 255, 0.9);
+            --buttonSecondaryTxt2: rgba(255, 255, 255, 0.8);
+            --buttonSecondaryTxt3: rgba(255, 255, 255, 0.6);
+            --buttonSecondaryAccent: #cc9200;
+            --buttonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+            --buttonSecondaryBorder: #404040;
+            --popupBg: #2b2b2b;
+            --popupBg2: #444444;
+            --popupBg3: #515151;
+            --popupBgHover: #333333;
+            --popupBg2Hover: #4c4c4c;
+            --popupBg3Hover: #595959;
+            --popupTxt: rgba(255, 255, 255, 0.9);
+            --popupTxt2: rgba(255, 255, 255, 0.8);
+            --popupTxt3: rgba(255, 255, 255, 0.6);
+            --popupAccent: #ffb700;
+            --popupAccentTxt: rgba(0, 0, 0, 0.9);
+            --popupBorder: #333333;
+            --oddBg: #212121;
+            --oddBg2: #3a3a3a;
+            --oddBg3: #474747;
+            --oddBgHover: #292929;
+            --oddBg2Hover: #424242;
+            --oddBg3Hover: #4f4f4f;
+            --oddTxt: rgba(255, 255, 255, 0.9);
+            --oddTxt2: rgba(255, 255, 255, 0.8);
+            --oddTxt3: rgba(255, 255, 255, 0.6);
+            --oddAccent: #ffb700;
+            --oddAccentTxt: rgba(0, 0, 0, 0.9);
+            --oddBorder: #ffb700;
+            --oddActiveBg: #f14100;
+            --oddActiveBg2: #ff6025;
+            --oddActiveBg3: #ff723e;
+            --oddActiveBgHover: #ff4601;
+            --oddActiveBg2Hover: #ff6b34;
+            --oddActiveBg3Hover: #ff7d4d;
+            --oddActiveTxt: rgba(255, 255, 255, 0.9);
+            --oddActiveTxt2: rgba(255, 255, 255, 0.8);
+            --oddActiveTxt3: rgba(255, 255, 255, 0.6);
+            --oddActiveBorder: #f14100;
+            --showMoreBg: #2b2b2b;
+            --showMoreBg2: #444444;
+            --showMoreBg3: #515151;
+            --showMoreBgHover: #333333;
+            --showMoreBg2Hover: #4c4c4c;
+            --showMoreBg3Hover: #595959;
+            --showMoreTxt: rgba(255, 255, 255, 0.9);
+            --showMoreTxt2: rgba(255, 255, 255, 0.8);
+            --showMoreTxt3: rgba(255, 255, 255, 0.6);
+            --showMoreAccent: #ffb700;
+            --showMoreAccentTxt: rgba(0, 0, 0, 0.9);
+            --showMoreBorder: #979797;
+            --tabBg: #333333;
+            --tabBg2: #4d4d4d;
+            --tabBg3: #595959;
+            --tabBgHover: #3b3b3b;
+            --tabBg2Hover: #555555;
+            --tabBg3Hover: #616161;
+            --tabTxt: rgba(255, 255, 255, 0.9);
+            --tabTxt2: rgba(255, 255, 255, 0.8);
+            --tabTxt3: rgba(255, 255, 255, 0.6);
+            --tabAccent: #ffb700;
+            --tabAccentTxt: rgba(0, 0, 0, 0.9);
+            --tabBorder: #3b3b3b;
+            --tabActiveBg: #333333;
+            --tabActiveBg2: #4d4d4d;
+            --tabActiveBg3: #595959;
+            --tabActiveBgHover: #3b3b3b;
+            --tabActiveBg2Hover: #555555;
+            --tabActiveBg3Hover: #616161;
+            --tabActiveTxt: rgba(255, 255, 255, 0.9);
+            --tabActiveTxt2: rgba(255, 255, 255, 0.8);
+            --tabActiveTxt3: rgba(255, 255, 255, 0.6);
+            --tabActiveAccent: #ffb700;
+            --tabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+            --tabActiveBorder: #3b3b3b;
+            --tabSecondaryActiveBg: #404040;
+            --tabSecondaryActiveBg2: #595959;
+            --tabSecondaryActiveBg3: #666666;
+            --tabSecondaryActiveBgHover: #484848;
+            --tabSecondaryActiveBg2Hover: #616161;
+            --tabSecondaryActiveBg3Hover: #6e6e6e;
+            --tabSecondaryActiveTxt: rgba(255, 255, 255, 0.9);
+            --tabSecondaryActiveTxt2: rgba(255, 255, 255, 0.8);
+            --tabSecondaryActiveTxt3: rgba(255, 255, 255, 0.6);
+            --tabSecondaryAccent: #ffb700;
+            --tabSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+            --tabSecondaryBorder: undefined;
+            --filterBg: #383838;
+            --filterBg2: #515151;
+            --filterBg3: #5e5e5e;
+            --filterBgHover: #404040;
+            --filterBg2Hover: #595959;
+            --filterBg3Hover: #666666;
+            --filterTxt: rgba(255, 255, 255, 0.9);
+            --filterTxt2: rgba(255, 255, 255, 0.8);
+            --filterTxt3: rgba(255, 255, 255, 0.6);
+            --filterAccent: #ffb700;
+            --filterAccentTxt: rgba(0, 0, 0, 0.9);
+            --filterBorder: #404040;
+            --menu_1Bg: #2b2b2b;
+            --menu_1Bg2: #444444;
+            --menu_1Bg3: #515151;
+            --menu_1BgHover: #333333;
+            --menu_1Bg2Hover: #4c4c4c;
+            --menu_1Bg3Hover: #595959;
+            --menu_1Txt: rgba(255, 255, 255, 0.9);
+            --menu_1Txt2: rgba(255, 255, 255, 0.8);
+            --menu_1Txt3: rgba(255, 255, 255, 0.6);
+            --menu_1Accent: #ffb700;
+            --menu_1AccentTxt: rgba(0, 0, 0, 0.9);
+            --menu_1Border: #333333;
+            --menu_2Bg: #2b2b2b;
+            --menu_2Bg2: #444444;
+            --menu_2Bg3: #515151;
+            --menu_2BgHover: #333333;
+            --menu_2Bg2Hover: #4c4c4c;
+            --menu_2Bg3Hover: #595959;
+            --menu_2Txt: rgba(255, 255, 255, 0.9);
+            --menu_2Txt2: rgba(255, 255, 255, 0.8);
+            --menu_2Txt3: rgba(255, 255, 255, 0.6);
+            --menu_2Accent: #ffb700;
+            --menu_2AccentTxt: rgba(0, 0, 0, 0.9);
+            --menu_2Border: #333333;
+            --menu_3Bg: #2b2b2b;
+            --menu_3Bg2: #444444;
+            --menu_3Bg3: #515151;
+            --menu_3BgHover: #333333;
+            --menu_3Bg2Hover: #4c4c4c;
+            --menu_3Bg3Hover: #595959;
+            --menu_3Txt: rgba(255, 255, 255, 0.9);
+            --menu_3Txt2: rgba(255, 255, 255, 0.8);
+            --menu_3Txt3: rgba(255, 255, 255, 0.6);
+            --menu_3Accent: #ffb700;
+            --menu_3AccentTxt: rgba(0, 0, 0, 0.9);
+            --menu_3Border: #333333;
+            --tooltipBg: #e6e6e6;
+            --tooltipBg2: #cccccc;
+            --tooltipBg3: #c0c0c0;
+            --tooltipBgHover: #dedede;
+            --tooltipBg2Hover: #c4c4c4;
+            --tooltipBg3Hover: #b8b8b8;
+            --tooltipTxt: rgba(0, 0, 0, 0.9);
+            --tooltipTxt2: rgba(0, 0, 0, 0.8);
+            --tooltipTxt3: rgba(0, 0, 0, 0.6);
+            --tooltipAccent: #ffb700;
+            --tooltipAccentTxt: rgba(0, 0, 0, 0.9);
+            --tooltipBorder: #dedede;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .body {
+            width: 300px;
+            height: 300px;
+            background-color: var(--bodyBg);
+            color: var(--bodyTxt);
+            padding: 10px;
+        }
+
+        .accent{
+            width: 300px;
+            height: 300px;
+            background-color: var(--accentBg);
+            color: var(--accentTxt);
+        }
+
+        .dominant {
+            width: 300px;
+            height: 300px;
+            background-color: var(--dominantBg);
+            color: var(--dominantTxt);
+            padding: 10px;
+        }
+
+        .dominant {
+            width: 300px;
+            height: 300px;
+            background-color: var(--dominantBg);
+            color: var(--dominantTxt);
+        }
+
+        .inputSecondary {
+            width: 100%;
+            height: 50px;
+            background-color: var(--inputSecondaryBg);
+            color: var(--inputSecondaryTxt);
+            margin-bottom: 10px;
+        }
+
+        .button {
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            background-color: var(--buttonBg);
+            color: var(--buttonTxt);
+            margin-bottom: 10px;
+        }
+
+        .buttonSecondary{
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            background-color: var(--buttonSecondaryBg);
+            color: var(--buttonSecondaryTxt);
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="body">
+        body
+    </div>
+
+    <div class="dominant">
+        dominant
+        <div class="inputSecondary">input</div>
+        <div class="button">button</div>
+        <div class="buttonSecondary">button secondary</div>
+
+
+    </div>
+
+    <div class="accent">
+        accent
+    </div>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>

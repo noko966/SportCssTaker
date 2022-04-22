@@ -1,0 +1,1143 @@
+﻿/*BetinGem*/
+/*.loader {
+	    background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);
+}*/
+.stat {
+	visibility: hidden;
+}
+
+.timefiltert {
+	line-height: 25px;
+	padding: 0 10px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.EUSp .c {
+    text-align: center;
+}
+
+.main_menu {
+	display: none !important;
+}
+
+.esMenu {
+	height: 72px;
+}
+
+.esMenuItem {
+    flex: 1;
+    height: 72px;
+    text-align: center;
+    padding: 10px 0;
+}
+.esMenuItem i {
+	height: 30px;
+	width: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+.esMenuItem .n {
+    width: 100%;
+    height: 15px;
+    display: block;
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.ui-mobile label{
+	margin:0;
+}
+
+/*live page*/
+#LP--RefreshContainer {
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+#LP--RefreshContainer .dropDownControl {
+	width: 71px;
+	height: 22px;
+}
+#LP--RefreshContainer .dropDownControl .value {
+	height: 8px;
+	top: 14px;
+}
+#LP--RefreshContainer .dropDownControl select {
+	background-color: #fff;
+	color: #000;
+}
+#LP--RefreshContainer .alCen {
+    flex-direction:row-reverse;
+    margin: 0;
+}
+#LP--RefreshContainer .displayFlex {
+    align-items: center;
+}
+#LP--RefreshContainer .chb_control .sportIcon {
+    font-size: 28px;
+} 
+
+#LP--RefreshContainer .chb_control .text {
+    padding: 0 4px;
+    font-size: 14px
+}
+
+.EScollapsable {
+	width: 100%;
+	height: 40px;
+	padding: 0 10px;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1px;
+}
+
+.EScollapsable > .symbolCnt {
+	height: 20px;
+	width: 20px;
+	display: block;
+	line-height: 20px;
+	text-align: center;
+	/*background: #5b5b5b;*/
+	/*background: -moz-linear-gradient(top, #5b5b5b 0%, #313131 100%);*/
+	/*background: -webkit-linear-gradient(top, #5b5b5b 0%,#313131 100%);*/
+	/*background: linear-gradient(to bottom, #5b5b5b 0%,#313131 100%);*/
+	border-radius: 5px;
+}
+
+li > .EScollapsable > .symbolCnt > .symbol {
+	transition: transform 0.2s;
+	-webkit-transition: transform 0.2s;
+}
+
+li.ssp > .EScollapsable > .symbolCnt > .symbol {
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+}
+
+.EScollapsable > .sport_type {
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 0 10px;
+}
+
+#events > li.live_menu_item .h {
+	height: 100%;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+}
+#events > li.live_menu_item .h .displayFlex{
+	align-items: center;
+}
+
+#events > li.live_menu_item .h > .displayFlex{
+	width: 100%;
+}
+
+#events > li.live_menu_item {
+	padding: 0;
+}
+.checkSport {
+	height: 20px;
+	width: 20px;
+	margin: 0 10px;
+}
+
+.checkSport .chb_control {
+	padding: 0;
+	min-height: 20px;
+	justify-content: center;
+}
+
+.checkSport .chb_control label > .text {
+	width: 0;
+}
+
+.checkSport .chb_control label > .sportIcon {
+	height: 20px;
+	width: 20px;
+	font-size: 22px;
+	line-height: 20px;
+}
+
+.liveEvtxtCont {
+	/*width: calc((100%) - 40px);*/
+	flex-grow: 1;
+	min-width: 1px;
+}
+
+.live_event_name {
+	font-size: 11px;
+}
+.score h3{
+	display: none;
+}
+.euico {
+	display: block;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	font-family: TotoFont;
+	text-decoration: none;
+	font-size: 21px;
+	text-align: center;
+	margin-right: 5px;
+}
+.liveEvStatus {
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.liveEvStatus .statusContainer {
+	padding: 0 5px;
+}
+
+.multiViewLiveEventPanel .c, .EUmatchGroup .c, .EUSp .c, #home_live_header .c {
+	font-weight: bold;
+	padding: 7px 15px;
+	width: 100%;
+}
+.multiViewLiveEventPanel .h {
+    width: 100%;
+    padding: 15px 10px;
+}
+
+.multiViewLiveEventPanel .d, .EUmatchGroup .d {
+	padding: 5px 13px;
+	position: relative;
+}
+
+.stakeInfoContainer {
+	font-size: 14px;
+	font-weight: bold;
+	height: 25px;
+	line-height: 25px;
+	width: 100%;
+	display: inline;
+}
+.es__paper_odds{
+	display:inline-flex;
+	flex-wrap:wrap;
+}
+.mwMarketName {
+	width: 100%;
+	display: block;
+}
+.odCnt {
+	margin-right: 5px;
+}
+.devider {
+	margin:0 5px;
+}
+
+.odCnt .esOdd{
+	font-weight:bold;
+}
+.live_menu_item  .s.displayFlex.wrap{
+	margin-bottom: 15px;
+}
+
+/* Events page*/
+.EUHeader {
+    font-size: 20px;
+    height: 48px;
+    line-height: 48px;
+    width: 100%;
+    text-align: center;
+    padding: 0 16px;
+    border-radius: 3px 3px 0 0;
+    text-transform: uppercase;
+}
+.EUrow {
+    width: 100%;
+	font-size: 14px;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px 8px;
+}
+.alCen {
+    align-items: center;
+}
+.clTransform {
+    height: 20px;
+    width: 20px;
+    flex-shrink: 0;
+    font-size: 16px;
+    flex-grow: 0;
+    font-family: TotoFont;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+	font-style: normal!important;
+}
+.EUevN {
+    width: 100%;
+    line-height: 18px;
+    overflow: hidden;
+}
+.maName {
+    flex-wrap: wrap;
+    padding-left: 8px;
+}
+.EUmi {
+	flex-grow:1;
+	min-width:1px;
+}
+
+.esm--empty_ic {
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	flex-grow: 0;
+}
+/*End Events page*/
+/*Home page*/
+
+.clT {
+	transform: rotate(90deg);
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	font-family: TotoFont;
+	line-height: 20px;
+	text-align: center;
+	font-style: normal !important;
+}
+.live_menu_item {
+	width: 100%;
+	padding: 15px 15px;
+}
+.EUOddsC {
+	height: 25px;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0 5px;
+	width: 100px;
+	justify-content: center;
+}
+div.oods_container.jb {
+	width: 320px !important;
+	margin: 0 auto;
+	justify-content: space-around;
+}
+.EUh {
+	width: calc((100%) - 25px);
+    text-align: center;
+    line-height: 34px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#home_live_sports .sport_name {
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    text-indent: 10px;
+}
+.EScollapsable i {
+    width: 27px;
+    position: relative;
+    display: block;
+    font-style: normal!important;
+    text-align: center;
+    height: 30px;
+}
+#main_anonce_block {
+	margin: 0;
+	position: relative;
+}
+#main_anonce_block .anbSliderHeadContainer .anbSliderTextContainer .ev_title {
+    width: 100%;
+    height: 186px;
+    line-height: 34px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+	text-align: center;
+}
+
+#main_anonce_block .anbSliderHeadContainer .anbSliderTextContainer {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	flex-wrap: wrap;
+}
+#main_anonce_block .anbSliderHeadContainer .anbSliderTextContainer .oddsContainer {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+	align-self: flex-end;
+}
+#main_anonce_block .anbSliderHeadContainer .anbSliderTextContainer .oddsContainer .odd {
+    width: 32%;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+#main_anonce_block .anbSliderHeadContainer .anbSliderTextContainer .oddsContainer .odd .ttl {
+    width: 56px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+}
+.l_od, .l_od_empty {
+    width: 80px;
+    border-radius: 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13px;
+    display: block;
+    flex-shrink: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    -moz-transition: background-color .3s,color .3s;
+    -webkit-transition: background-color .3s ease,color .3s;
+    transition: background-color .3s ease,color .3s;
+}
+
+#main_anonce_block  .odd .odd-title {
+	display: none;
+}
+
+#main_anonce_block  .odd:nth-child(1) .l_od {
+	border-radius: 0 10px 0 0;
+}
+
+#main_anonce_block  .odd:nth-child(2) .l_od{
+	border-radius: 10px 10px 0 0;
+}
+
+#main_anonce_block  .odd:nth-child(3) .l_od{
+	border-radius: 10px 0 0 0;
+}
+
+#main_anonce_block .anbSliderHeadContainer {
+    width: 100%;
+	background-size: cover;
+    height: 225px;
+    border-radius: 2px;
+	padding: 0;
+}
+#main_anonce_block .anbSliderHeadContainer .anbImg {
+    width: 240px;
+    height: 190px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 8px;
+    background-size: cover;
+    background-position: left;
+}
+#main_anonce_block .passive {
+    display: none;
+}
+/*End Home page*/
+
+.btn_orange {
+    border: none;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+/*Coupon*/
+.coupon-content .cp_builder .stakes_panel .stake_item .stake_buttons {
+    align-items: center;
+    width: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.coupon-content .cp_builder .stakes_panel .stake_item .stake_buttons div {
+    font-size: 2.3em;
+    display: block;
+    height: 41px;
+    width: 100%;
+    line-height: 39px;
+}
+.coupon-content .cp_builder .stakes_panel .stake_item .stake_info .factor_up {
+    font-size: 1.15em;
+}
+
+.btn_grey {
+    border: none;
+    box-shadow: none;
+    border-radius: 2px;
+}
+.coupon-content .row {
+    min-height: 40px;
+    padding: 5px 5px;
+    position: relative;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.cp_footer .radioBtn .lblRadio.sportIcon {
+	position: relative;
+}
+.cp_footer .radio + .lblRadio:after {
+	content: '';
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	position: absolute;
+	border: 1px solid;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.cp_footer .radio + .lblRadio:before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	z-index: 3;
+	display: none;
+}
+
+.ctrTotOdds .coupChbContainer {
+	width: 100%;
+}
+/*End coupon*/
+/*My Account page*/
+.ctrTotOdds .coupChbContainer .chbLbl {
+	padding-left: 8px;
+}
+/* End My Account page*/
+/*Results page*/
+.one_footer {
+	display: none;
+}
+.couponBetHistory{
+	display: none;
+}
+
+/*End Results page*/
+/*Home page slider*/
+#main_anonce_block div {
+	width: 100%;
+}
+
+
+.anbSliderHeadContainer {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#main_anonce_block .anbSliderHeadContainer .anbSliderTextContainer .newsSliderButtonContainer {
+	display:none;
+}
+
+#main_anonce_block .buttons {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	width: initial;
+}
+
+#main_anonce_block .buttons a {
+	display: block !important;
+	width: 20px;
+	height: 20px;
+	text-decoration: none;
+	margin-bottom: 8px;
+	text-align: center;
+	line-height: 23px;
+	z-index: 1000;
+	position: relative;
+	border-radius: 10px;
+	border: 2px solid;
+}
+
+#main_anonce_block .buttons .btn_active {
+    z-index: 1000;
+}
+
+#main_anonce_block .buttons .btn_active::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	background: #999;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+#main_anonce_slider {
+	position: relative;
+	height: 225px;
+	overflow-x: hidden;
+}
+
+#main_anonce_block .active{
+	height: inherit;
+}
+.bannerHeader {
+	text-align:center;
+	padding: 10px;
+	/*background-color: rgba(0,0,0,0.7);*/
+	font-size: 13px;
+	/*text-align: center;*/
+}
+#main_anonce_block .bannerHeader .es--banner_equal {
+	margin: 0 2px;
+}
+
+.event-dropdown {
+	margin-right: 10px;
+	font-size: 14px;
+	width: 60px;
+	flex-shrink: 0;
+	text-align: right;
+}
+
+.event-dropdown .sportIcon.expanded {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.event-dropdown .sportIcon {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+
+.event-dropdown .transForm {
+	-moz-transition: transform 0.3s ease;
+	-webkit-transition: transform 0.3s ease;
+	transition: transform 0.3s ease;
+}
+
+.mainStakes {
+	margin-bottom: 20px;
+}
+
+/*Express day*/
+.EUHeader {
+	background: #008906;
+	background: -moz-linear-gradient(top, #008906 0%, #03c50b 100%);
+	background: -webkit-linear-gradient(top, #008906 0%,#03c50b 100%);
+	background: linear-gradient(to bottom, #008906 0%,#03c50b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008906', endColorstr='#03c50b',GradientType=0 );
+}
+.es__express_day_slider_pagination {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	bottom: 0;
+	left: 5px;
+}
+
+.es__express_slider_arrow {
+	position: absolute;
+	cursor: pointer;
+	width: 10px;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 6px solid;
+	border-left: 6px solid;
+	border-bottom: 7px solid transparent;
+}
+
+#express-day-slider-prev {
+	border-left: 0;
+}
+
+#express-day-slider-next {
+	border-right: 0;
+	right: 0;
+}
+
+.es__express_day_slider_container {
+	padding: 25px 0;
+	border: 1px solid;
+	border-top: none;
+}
+
+.es__express_day_slider {
+	display: flex;
+}
+
+.es__express_day_slider > li {
+	display: none;
+}
+
+.es__express_day_slider > li.active {
+	display: flex;
+	width: 100%
+}
+
+.es__express_day_coupon {
+	width: 100%;
+	border-right: 1px solid;
+}
+
+.es__col-6 {
+	width: 50%;
+}
+
+.es__express_day_coupon:last-child {
+	border: none;
+}
+
+.es__express_items_list > li:last-child {
+	border: none;
+}
+
+.tg--flex-end {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.tg-flex-grow {
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	min-width: 1px;
+}
+
+.es__coupon_number {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 3px solid;
+}
+
+.es__event_list li {
+	margin-bottom: 10px;
+}
+
+.es__event_info {
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.es__event_info > div {
+	margin-right: 20px;
+}
+
+.es__event_info > div:last-child {
+	margin: 0;
+}
+
+.es__event_info > div:last-child > div:last-child {
+	font-weight: bold;
+}
+
+.es__event_info > div:first-child {
+	font-size: 20px;
+}
+
+.es__event_odd_container {
+	padding: 5px 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.es__bonus_odd_container {
+	display: flex;
+	align-items: center;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.es__total_odd_container {
+	padding: 5px 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.es__total_odd_container div:last-child {
+	margin-left: 50px;
+	height:30px;
+	line-height:30px;
+}
+
+.es__express_day_odd {
+	/*min-width: 60px;*/
+	/*height:18px;*/
+	/*font-size: 14px;*/
+	/*color: #fff;*/
+	/*border-radius:2px;*/
+	/*font-weight: bold;*/
+	/*text-align: center;*/
+	height: 30px;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0 5px;
+	width: 100px;
+	justify-content: center;
+}
+
+.es__inline_block {
+	display: inline-block;
+}
+
+.es__add_coupon_btn {
+	width: 100%;
+	margin: 0 10px;
+	line-height: 30px;
+	height: 30px;
+	text-align: center;
+	background: #03c50b;
+}
+
+.es__justify_content_center {
+	justify-content: center
+}
+.es__bonus_type_message {
+	font-weight: bold;
+}
+.es--mar-l-20 {
+	margin-left: 10px;
+}
+.live_tabs_header .selector_panel .tab_selector {
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+}
+.tabText {
+	display: inline-block!important;
+}
+.tg-ico-sm {
+	width: 20px;
+	font-family: TotoFont;
+	text-transform: none;
+	font-size: 22px;
+	flex-shrink: 0;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: super;
+	margin-right: 8px;
+}
+.Long-term-bets {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top:24px;
+	padding-bottom:8px;
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.4);
+}
+.tg__left_menu_item {
+	text-decoration: underline;
+	text-align:center;
+}
+
+/*Express day END*/
+/*long term bets*/
+
+.tg__btn-arrow {
+	padding-right: 32px;
+	padding-left: 8px;
+	position: relative;
+}
+.tg__btn-arrow:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 15px;
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid;
+	margin-top: -3px;
+}
+.es__home_one_game_header {
+	line-height: 34px;
+	padding: 0 15px;
+	width: 100%;
+	text-align:center;
+}
+.es__home_row {
+	width: 100%;
+	border: 1px solid;
+	border-left: 0;
+	border-right: 0;
+	line-height: 48px;
+	padding: 0 8px;
+}
+.es__home_row:nth-child(even) {
+	background-color: #f5f5f5;
+}
+.es__paper_coeff {
+	padding:0 4px;
+	font-weight: 600;
+}
+.es__paper_odd{
+	font-weight:normal;
+}
+.es__ev-SLId {
+    height: 22px;
+    line-height: 22px;
+    width: 70px;
+    margin-left: 12px;
+    margin-bottom:20px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+}
+.live_tabs_header .body_panel .tab_body_active{
+    padding-top: 12px;
+}
+/*************************skinning********************************/
+body {
+	background-color: #0C0E1B;
+}
+/*live bets*/
+#LP--RefreshContainer {
+	background-color: #222430;
+	color: #fff;
+}
+#LP--RefreshContainer .title{
+	color: #FFE423;
+}
+#LP--RefreshContainer .text {
+	color: #fff;
+}
+.EScollapsable {
+	background-color: #0A3466;
+	color: #fff;
+}
+.EScollapsable .sport_type{
+	color: #fff;
+} 
+.live_menu_item {
+	background-color: #225381;
+	color: #fff;
+}
+.live_menu_item:nth-child(even){
+	background-color: #164A7A;
+}
+.liveEvStatus {
+	color: #FFE423;
+}
+.multiViewLiveEventPanel {
+	font-size: 13px;
+	background-color: #061F3D;
+	color: #fff;
+}
+.multiViewLiveEventPanel .esOdd{
+	color: #FFE423;
+}
+.multiViewLiveEventPanel .title{
+	color: #fff;
+}
+.multiViewLiveEventPanel .title.selectedName,
+.multiViewLiveEventPanel .esOdd.selectedOdd{
+	background-color: #FFE423;
+	color: #000;
+}
+.multiViewLiveEventPanel .odCnt{
+	color: #fff;
+}
+/*popup*/
+.puBody {
+	background-color: #225381;
+}
+.puHead {
+	background-color: #0A3466;
+}
+.btn_orange {
+	background-color: #FDE350;
+	color: #000;
+}
+.multiViewLiveEventPanel .h {
+	background-color: #225381;
+}
+/*live home*/
+#home_live_header .c {
+	background-color: #222430;
+	color: #fff;
+}
+.EUOddsC {
+	background-color: #061F3D;
+	color: #fff;
+}
+.es__paper_coeff {
+	color: #FFE423;
+}
+.selectedOdd {
+	background-color: #FFE423;
+	color: #000;
+}
+.sectionBg{
+	background-color: transparent;
+}
+/*bet history*/
+.mobHeader {
+	background-color: #0A3466;
+	color: #fff;
+}
+.cp_builder,
+.stake_info .is_cashout_icon {
+	background-color: #0C0E1B;
+	color: #fff;
+}
+.coupon-content .cp_builder .stakes_panel .stake_item {
+	background-color: #061F3D;
+	color: #fff;
+}
+.tab_cupon {
+	background-color: #384C64;
+}
+.tab_cupon.tab_selected{
+	background-color: #0A3466;
+	color: #FFE423;
+}
+.headingMob,
+.btn_grey {
+	background-color: #384C64;
+	color: #fff;
+}
+.coupon-content .row,
+.coupon-content .row.commonCoeff,
+.coupon-content .row.aggOdd {
+	background-color: #061F3D;
+	color: #fff;
+}
+.coupon-content .cp_builder .stakes_panel .stake_item .stake_info .st_name {
+	color: #9BA5B1;
+}
+.es-clr-green {
+	color: #FFE423;
+}
+/*Keybord*/
+.customKeybord {
+	background-color: #0C0E1B;
+}
+.coupon-content .caption .lbl .cnt {
+	background-color: #91A4BA;
+	color: #0C0E1B;
+}
+.coup_settings_panel {
+	background-color: #0C0E1B;
+}
+.btn_fav_amount:focus {
+	outline-color: #FFE423;
+}
+.radioBtn .lblRadio.sportIcon,
+.radioBtn label .text {
+	color: #fff;
+}
+/*Upcoming*/
+.profile_caption,
+.EUmatchGroup .c,
+.EUSp .c {
+	background-color: #0A3466;
+	color: #fff;
+}
+.EUrow {
+	background-color: #225381;
+	color: #fff;
+}
+.EUrow:nth-child(even){
+	background-color: #164A7A;
+}
+.timefiltert{
+	color: #fff;
+}
+
+.multiViewLiveEventPanel .d,
+.EUmatchGroup .d {
+	background-color: #061F3D;
+	color: #fff;
+}
+.es__ev-SLId {
+	background-color: #222430;
+}
+.live_tabs_header .selector_panel .tab_selector {
+	background-color: #384C64;
+	color: #fff;
+}
+.live_tabs_header .selector_panel .tab_selector_active {
+	background-color: #0A3466;
+	color: #FFE423;
+}
+/*results*/
+.bg_title {
+	background-color: #164A7A;
+	color: #fff;
+}
+.search_table .SearchDescStyle {
+	display: inline-block;
+	margin: 4px 0;
+}
+.search_table input#res_txt {
+	background-color: #222430;
+	color: #fff;
+}
+#res_dp_from .dropDownControl,
+#res_dp_to .dropDownControl {
+	margin: 0 2px;
+}
+/*dropdown*/
+.dropDownControl .value {
+	background-color: transparent;
+	color: #82838A;
+}
+.dropDownControl select {
+	background-color: #fff;
+	color: #000;
+}
+/*------------------------------ texts colors ----------------------------------*/
+.main_txt, a {
+	color: #ffffff;
+}
+
+
+
+
+ 
+        .finished_event_wrapper {
+            background-color: #0C0E1B;
+            color: #fff;
+        }
+        .finished_event_header {
+            background-color: #123d64;
+            color: #fff;
+        }
+        .finished_event_tournament_name {
+            background-color: #164A7A;
+            color: #fff;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#FFE423 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #123d64;
+            color: #fff;
+        }
+        .finished_event_score {
+            color: #FFE423;
+        }
+    

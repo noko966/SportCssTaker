@@ -1,0 +1,205 @@
+﻿/* inbetGamesMobile */
+/*.loader {background: url('/images/partnerLoader.gif') 50% 50% no-repeat rgba(0,0,0, 0.9);}*/
+/*.stream, .hideStreamMob,*/ 
+
+
+/*------------------------------ texts colors ----------------------------------*/
+.main_txt, a  {color: #ffffff;} /*main text color */
+.prime_txt    {color: rgba(255,255,255,0.70)} /*primary text color*/
+.highlight_txt, .error {color: #F14000;} /*highlighted text color*/
+
+/* -------------------------------- sport icons colors -------------------------*/
+.icon_color_light    {color: #ffffff;}  /*light icon color*/
+.icon_color          {color: #88898d;}  /*main icon color*/
+.icon_color_highlight{color: #FF4100;}  /*active icon color*/
+.icon_color_dark     {color: #717171;} /*icons dark color*/
+
+/* --------------------------------- shadow colors -------------------------------*/
+.box_shadow {-webkit-box-shadow: inset 0px -14px 10px -4px rgba(80,80,80,0.5);-moz-box-shadow: inset 0px -14px 10px -4px rgba(80,80,80,0.5);box-shadow: inset 0px -14px 10px -4px rgba(80,80,80,0.5);}
+.h_shadow   {-webkit-box-shadow: inset 0px 6px 16px 0px rgba(35,35,35,0.8); -moz-box-shadow: inset 0px 6px 16px 0px rgba(35,35,35,0.8); box-shadow: inset 0px 6px 16px 0px rgba(35,35,35,0.8);} /*header shadow*/
+
+/* ---------------------------------background colors ---------------------------*/
+.bg_main,.error {background-color: #000000 !important;} /*main background color */
+.bg_back        {background-color: #0a0a0a !important;} /*background color*/
+.bg_main_header {background-color: #303236 !important;} /*sport live main tabs color*/
+.bg_header      {background-color: #1e1e1e !important;}
+.bg_box         {background-color: #919191 !important;} 
+.bg_block       {background-color: #333333 !important;} /*menu item background color*/
+.bg_title       {background-color: #272727 !important;} /*odd background color*/
+.bg_highlight, .selectedOdd{ background-color: #FF4100 !important; } /* active items background color */
+.bg_dd_list     {background-color: #0a0a0a !important;} /*drop down list background color*/
+
+/* ---------------------------------border colors --------------------------------*/
+.border_bg        {border-color: #000000 !important; } /*primary border color*/
+.border_highlight {border-color: #FF4100 !important;}  /*highlight border color*/
+.border_middle    {border-color: #333333 !important;} /*middle border color*/
+.border_main      {border-color: #666666 !important; } /*main border color*/
+
+/*-------------------------------  lines styles  --------------------------------*/
+.orang_line {
+	border: none !important;
+	background: #ff4100; /* Old browsers */
+	background: -moz-linear-gradient(left, #000000 0%, #ff4100 50%, #000000 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000000), color-stop(50%,#ff4100), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #000000 0%,#ff4100 50%,#000000 100%); /* IE10+ */
+	background: linear-gradient(to right, #000000 0%,#ff4100 50%,#000000 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	height: 1px !important;
+}
+
+.gray_line {
+	background: rgb(10,10,10); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(10,10,10,1) 0%, rgba(110,110,110,1) 50%, rgba(10,10,10,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(10,10,10,1)), color-stop(50%,rgba(110,110,110,1)), color-stop(100%,rgba(10,10,10,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(10,10,10,1) 0%,rgba(110,110,110,1) 50%,rgba(10,10,10,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#0a0a0a',GradientType=1 ); /* IE6-9 */
+    height: 1px !important;
+}
+
+/*-------------------------------  button styles  ---------------------------------*/
+
+
+.one_footer a {
+	color: #fff !important;
+	background: #f14100 !important;
+	border-top: 1px solid #FD8659;
+}
+
+#footer_bet_history {
+	display: none !important;
+}
+
+/*MAIN BG COLOR*/
+.header,
+.main_menu{
+    background-color:#111;
+}
+
+.rt {
+    background-color:#363738;
+}
+
+.event_page_header_champ_country {
+    background-color:#181818 !important;
+}
+
+
+.main_menu_item {
+	background-color:#4c4c4c;
+	border-color:#717171;
+}
+
+	.main_menu_item.menu_active {
+		background-color: #9e9e9e;
+	}
+/*----------------------- Bet Checker -------------------------*/
+.betCheckerNumber {
+	color: #f14100;
+}
+.BCOverallBox {
+	border-bottom: 2px solid #f14100;
+}
+
+
+.defaultBetPlus {
+	color: #000;
+}
+.editedBetPlus {
+	color: #f14100;
+}
+.line_through {
+	color: rgba(0, 0, 0, .7)!important;
+}
+.editIcon {
+	color:rgba(0, 0, 0, .7)!important;
+}
+.editedIcon {
+	background-color: #f14100;
+    color: #dcdcdc;
+}
+
+/*Bet History*/
+/*.profile_user_history_item {
+	background-color:#000;
+}
+
+.profile_user_history_item .txt, .profile_user_history_item .txt a {
+    color: #fff;
+}
+
+.history_item_row, .operation_item_row {
+    background-color: #333;
+    color: #fff;
+}*/
+
+.btn_grey {
+	color: #fff;
+	background: #484848;
+    border:none;
+    box-shadow:none;
+    border-top: 1px solid #7B7B7B;
+    border-radius: 2px;
+}
+.btn_orange {
+	color: #fff;
+	background: #f14100;
+    border:none;
+    box-shadow:none;
+    border-top: 1px solid #FD8659;
+    border-radius: 2px;
+}
+
+.betBookContent .profile_user_history_item {
+    background-color: #2b2b2b;
+    border: 2px solid #000;
+}
+
+.betBookContent .profile_user_history_item .txt, 
+.betBookContent .profile_user_history_item .txt a {
+	color:#fff;
+}
+
+.betBookContent .history_item_row {
+    background-color: #404040;
+    color: #bbb;
+}
+.betCheckerContainer {
+	background-color: #272727;
+	min-height: calc(100vh - 70px);
+}
+
+.dispN {
+	display: block !important;
+}
+
+.tab_cupon.tab_selected, .tab_cupon.tab_selected {
+	background-color: #9e9e9e;
+} 
+        .finished_event_wrapper {
+            background-color: #161415;
+            color: #fff;
+        }
+        .finished_event_header {
+            background-color: #262626;
+            color: #fff;
+        }
+        .finished_event_tournament_name {
+            background-color: #333;
+            color: #fff;
+        }
+        .finished_event_line, .bonus_heading_line {
+            background-color: linear-gradient(to right, #0000 0%,#ffb700 50%,#0000 100%);
+        }
+        .finished_event_message {
+            background-color: #262626;
+            color: #fff;
+        }
+        .finished_event_score {
+            color: #ffb700;
+        }
+    
