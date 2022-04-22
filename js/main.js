@@ -305,7 +305,7 @@ const train = (iterations = 1) => {
 train(10000);
 
 function guessVisibleColor(hex, essence) {
-    if(!hex) {
+    if (!hex) {
         console.log(essence + ' has no color');
         return 'write by hand'
     }
@@ -390,7 +390,7 @@ function guessVisibleColor(hex, essence) {
         getAlpha: function () {
             return this._a;
         },
-        getObjectFromString: function(color) {
+        getObjectFromString: function (color) {
             return stringInputToObject(color);
         },
         getBrightness: function () {
@@ -1716,29 +1716,39 @@ function verbalData(name) {
 }
 
 
-function getBgColor(el, elP) {
-    if (!el) return
+function getBgColor(el, essence) {
+    let _essence = essence || "unknown";
+    if (!el) {
+        console.log(essence);
+        return
+    }
     let _el = el;
     let _style, _bg, _gr, _isGradient;
-
-    let _elP = elP || false;
-    let _bgP;
 
     _style = window.getComputedStyle(_el);
     _bg = _style.getPropertyValue('background-color');
     _gr = _style.getPropertyValue('background-image');
 
+    if(_bg === "rgba(0, 0, 0, 0)" && _gr === "none") {
+        _bg = "#ffffff";
+    }
+
     _isGradient = _gr !== 'none';
     _bg = tinycolor(_bg).toHexString();
 
-    if(_isGradient) {
+    // if(_bg === 'rgba(0, 0, 0, 0)'){
+    //     console.log('no color applied');
+    // }
+
+    if (_isGradient) {
         let __bg = _gr.match(new RegExp(/rgba*\(.+?(?=\))/, 'ig'))[0] + ')';
         _bg = tinycolor(__bg).toHexString();
-    }
-    else{
+    } else {
         _gr = _bg;
     }
-    
+
+
+
 
     let res = {
         bg: _bg,
@@ -1776,14 +1786,13 @@ function getBorderColor(el) {
 
 function getBg(el, essence, shift) {
     let _el = el;
-    let _elAlt = elAlt;
     let _shift = shift || 0;
     let _essence = essence || "body";
     let config = {};
     let data = verbalData(_essence);
     let isLight;
-    config[data.nameBg] = getBgColor(_el).bg;
-    config[data.nameG] = getBgColor(_el).gr;
+    config[data.nameBg] = getBgColor(_el, _essence).bg;
+    config[data.nameG] = getBgColor(_el, _essence).gr;
     isLight = tinycolor(config[data.nameBg]).isLight();
     let txt = guessVisibleColor(config[data.nameBg], essence);
     config[data.nameTxt] = tinycolor(txt).setAlpha(0.9).toRgbString();
@@ -1990,7 +1999,7 @@ function createMap() {
 }
 
 
-function prepareNegativeColor(color){
+function prepareNegativeColor(color) {
     let _color = color;
     let _res = {};
     let _saturation = 2;
@@ -2362,11 +2371,9 @@ function createCssTxt(map) {
 
 }
 
-
 let partnersIdArray = [1, 100, 105, 107, 109, 11, 110, 113, 114, 117, 118, 119, 120, 121, 122, 125, 126, 127, 128, 130, 131, 132, 134, 136, 137, 139, 14, 143, 144, 145, 146, 147, 148, 157, 163, 164, 165, 166, 167, 169, 170, 173, 179, 181, 182, 183, 185, 188, 189, 190, 191, 193, 197, 198, 200, 201, 205, 206, 209, 210, 211, 212, 213, 215, 217, 221, 222, 225, 226, 227, 228, 23, 230, 231, 233, 234, 235, 236, 237, 238, 240, 243, 245, 247, 248, 249, 250, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 264, 265, 266, 267, 268, 269, 271, 272, 273, 277, 279, 280, 281, 282, 283, 284, 285, 286, 29, 290, 291, 294, 295, 297, 299, 300, 301, 302, 303, 304, 305, 307, 308, 309, 310, 311, 312, 313, 314, 316, 317, 318, 319, 321, 322, 323, 324, 325, 326, 327, 328, 329, 331, 332, 333, 334, 335, 336, 337, 340, 341, 342, 343, 344, 346, 350, 355, 357, 358, 359, 360, 362, 369, 384, 385, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 398, 399, 40, 400, 401, 402, 403, 404, 407, 409, 41, 410, 412, 413, 414, 415, 416, 418, 419, 421, 422, 424, 425, 427, 428, 429, 43, 430, 433, 434, 435, 436, 439, 441, 444, 446, 449, 45, 451, 452, 455, 456, 457, 458, 46, 461, 464, 53, 54, 62, 63, 64, 65, 69, 71, 72, 76, 77, 79, 80, 81, 83, 89, 9, 90, 94, 95, 97, 98, 99]
 
-
-// let partnersIdArray = [250];
+// let partnersIdArray = [233];
 
 // let partnersIdArray = [1, 11, 14, 69, 98, 107, 233, 341];
 
@@ -2383,6 +2390,7 @@ function createTheme(id) {
         partnerMap.theme = 'dark';
     }
     sportMap.push(partnerMap);
+    console.log(`partner style ${id} taken`);
     return partnerMap;
 }
 
@@ -2390,6 +2398,7 @@ function attachPartnerStyle(id) {
     let partnerStyle = document.getElementById('partnerStyleCssLink');
     let href = `/Partners/${id}/Styles/web.css`;
     partnerStyle.setAttribute('href', href);
+    console.log(`partner style ${id} attached`);
 }
 
 /*prepare european view*/
@@ -2419,28 +2428,23 @@ function waitFor(element, selector) {
     })
 }
 
-prepareEuropeanView();
+await prepareEuropeanView();
 
-let partnerIndex = -1;
-
-function make() {
-    setTimeout(function () {
-        partnerIndex++;
-        attachPartnerStyle(partnersIdArray[partnerIndex]);
-        console.log(`partner style ${partnersIdArray[partnerIndex]} attached`);
-        setTimeout(function () {
-            createTheme(partnersIdArray[partnerIndex]);
-            console.log(`partner style ${partnersIdArray[partnerIndex]} taken`);
-        }, 1000)
-        if (partnerIndex < partnersIdArray.length) {
-            make();
-        }
-    }, 1500)
-}
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+let delayMs = 600;
 
 window.addEventListener('keypress', (e) => {
     if (e.code === "KeyA") {
-        make();
+        // make();
+        (async function loop() {
+            for (let i = 0; i < partnersIdArray.length; i++) {
+                await delay(delayMs);
+                attachPartnerStyle(partnersIdArray[i]);
+                
+                await delay(delayMs);
+                createTheme(partnersIdArray[i]);
+            }
+        })();
     }
 })
 
@@ -2450,7 +2454,7 @@ window.addEventListener('keypress', (e) => {
 //     }
 // })
 
-function createOneConfig(config){
+function createOneConfig(config) {
     let _config = config;
     let map = {
         ...getPalette(_config.body, "body"),
@@ -2494,7 +2498,7 @@ function createOneConfig(config){
 }
 
 
-function createOnePartnerMap(config){
+function createOnePartnerMap(config) {
     let map = createOneConfig(config);
     let partnerMap = createPartnerMap(map);
     partnerMap.id = config.id;
